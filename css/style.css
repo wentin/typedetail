@@ -235,7 +235,8 @@ main {
   width: 420px;
   margin-right: 40px; }
   .styles::before {
-    content: 'Weights and Styles'; }
+    content: 'Weights and Styles';
+    margin-bottom: 10px; }
   .styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p {
     font-family: Georgia;
     font-size: 16px;
@@ -287,7 +288,8 @@ main {
   width: 420px;
   margin-right: 40px; }
   .legibility::before {
-    content: 'Legibility'; }
+    content: 'Legibility';
+    margin-bottom: 10px; }
   .legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
     font-family: Georgia;
     font-size: 16px;
