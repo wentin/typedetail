@@ -145,7 +145,7 @@ a {
   .pagination .number {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     height: 30px;
     width: 30px;
     line-height: 30px;
@@ -156,6 +156,26 @@ a {
     background-color: #332C21;
     color: #FDFCF6;
     cursor: default; }
+
+.share {
+  position: absolute;
+  right: 0;
+  top: 18px; }
+  .share a {
+    width: 24px;
+    margin-left: 6px; }
+    .share a::before {
+      font-size: 24px;
+      font-family: 'icomoon';
+      color: #D0CAC2;
+      transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+  .share a:hover::before {
+    color: #F1B908; }
+  .share .github::before {
+    font-size: 26px;
+    content: "\e603"; }
+  .share .twitter::before {
+    content: "\e602"; }
 
 header {
   width: 1200px;

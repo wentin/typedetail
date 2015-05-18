@@ -1,0 +1,89 @@
+.logo span {
+  color: #EF431D; }
+
+.share a:hover::before {
+  color: #EF431D; }
+
+.title {
+  width: 570px;
+  border-top: dashed 1px #D0CAC2;
+  font-family: "Playfair Display SC", serif;
+  font-size: 80px;
+  font-weight: 900;
+  font-style: italic;
+  color: #332C21;
+  line-height: 120px;
+  text-align: right;
+  padding: 114px 20px 0 0;
+  margin-right: 60px;
+  float: left;
+  box-sizing: border-box;
+  position: relative; }
+  .title::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -30px;
+    top: 137px;
+    width: 1px;
+    height: 600px;
+    border-right: dashed 1px #332C21; }
+  .title span {
+    color: #EF431D;
+    position: relative; }
+    .title span::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: -30px;
+      top: -7px;
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      border: dashed 1px #332C21; }
+
+.index {
+  width: 570px;
+  border-top: dashed 1px #D0CAC2;
+  box-sizing: border-box;
+  float: left;
+  font-family: "Open Sans", sans-serif; }
+  .index p {
+    width: 450px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #332C21;
+    line-height: 20px;
+    margin-top: 267px; }
+  .index a {
+    color: #332C21;
+    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1);
+    background-image: linear-gradient(to bottom, rgba(51, 44, 33, 0) 50%, rgba(51, 44, 33, 0.6) 50%);
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 15px; }
+  .index a:hover {
+    background-image: linear-gradient(to bottom, rgba(239, 67, 29, 0) 50%, rgba(239, 67, 29, 0.6) 50%);
+    color: #EF431D; }
+  .index ul {
+    margin-top: 16px;
+    width: 450px;
+    counter-reset: code-number-counter;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3; }
+    .index ul li {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      counter-increment: code-number-counter; }
+      .index ul li::before {
+        content: counter(code-number-counter);
+        display: inline-block;
+        width: 18px;
+        font-weight: 700;
+        text-align: right;
+        color: #D0CAC2;
+        margin-right: 6px; }
+
+/*# sourceMappingURL=main.css.map */

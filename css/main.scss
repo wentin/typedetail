@@ -1,0 +1,113 @@
+$tint: #EF431D;
+$dark: #332C21;
+$light: #D0CAC2;
+$white: #FDFCF6;
+$opensans: 'Open Sans', sans-serif;
+$playfair: 'Playfair Display', serif;
+$playfairsc: 'Playfair Display SC', serif;
+$easing: cubic-bezier(0.18, 0.57, 0.51, 1);
+
+.logo {
+	span {
+		color: $tint;
+	}
+}
+.share{
+	a:hover {
+		&::before {
+			color: $tint;
+		}
+	}	
+}
+.title {
+	width: 570px;
+	border-top: dashed 1px $light;
+	font-family: $playfairsc;
+	font-size: 80px;
+	font-weight: 900;
+	font-style: italic;
+	color: $dark;
+	line-height: 120px;
+	text-align: right;
+	padding: 114px 20px 0 0;
+	margin-right: 60px;
+	float: left;
+	box-sizing: border-box;
+	position: relative;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		right: -30px;
+		top: 137px;
+		width: 1px;
+		height: 600px;
+		border-right: dashed 1px $dark;
+	}
+	span {
+		color: $tint;
+		position: relative;
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: -30px;
+			top: -7px;
+			width: 124px;
+			height: 124px;
+			border-radius: 50%;
+			border: dashed 1px $dark;
+
+		}
+	}
+}
+.index{
+	width: 570px;
+	border-top: dashed 1px $light;
+	box-sizing: border-box;
+	float: left;
+	font-family: $opensans;
+	p {
+		width: 450px;
+		font-weight: 700;
+		font-size: 14px;
+		color: $dark;
+		line-height: 20px;
+		margin-top: 267px;
+	}
+	a {
+		color: $dark;
+		transition: all 0.4s $easing;
+		background-image: linear-gradient(to bottom, rgba($dark,0) 50%, rgba($dark,0.6) 50%);
+		background-repeat: repeat-x;
+		background-size: 2px 2px;
+		background-position: 0 15px;
+	}
+	a:hover {
+		background-image: linear-gradient(to bottom, rgba($tint,0) 50%, rgba($tint,0.6) 50%);
+		color: $tint;
+	}
+	ul {
+		margin-top: 16px;
+		width: 450px;
+  		counter-reset: code-number-counter;
+	    -webkit-column-count: 3;
+	    -moz-column-count: 3;
+	    column-count: 3;
+		li {
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 20px;
+			counter-increment: code-number-counter;
+			&::before {
+				content: counter(code-number-counter);
+				display: inline-block;
+				width: 18px;
+				font-weight: 700;
+				text-align: right;
+				color: $light;
+				margin-right: 6px;
+			}
+		}
+	}
+}

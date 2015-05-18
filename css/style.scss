@@ -113,7 +113,7 @@ a {
 	.number {
 		font-family: $opensans;
 		font-weight: 400;
-		font-size: 12px;
+		font-size: 14px;
 		height: 30px;
 		width: 30px;
 		line-height: 30px;
@@ -124,6 +124,37 @@ a {
 		background-color: $dark;
 		color: $white;
 		cursor: default;
+	}
+}
+.share{
+	position: absolute;
+	right: 0;
+	top: 18px;
+	a {
+		width: 24px;
+		margin-left: 6px;
+		&::before {
+			font-size: 24px;
+			font-family: 'icomoon';
+			color: $light;
+			transition: all 0.4s $easing;
+		}
+	}
+	a:hover {
+		&::before {
+			color: $orange;
+		}
+	}		
+	.github {
+		&::before {
+			font-size: 26px;
+			content: "\e603";
+		}
+	}
+	.twitter {
+		&::before {
+			content: "\e602";
+		}
 	}
 }
 header {
