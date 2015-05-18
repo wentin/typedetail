@@ -1,20 +1,20 @@
 .logo span {
-  color: #EF431D; }
+  color: #F1B908; }
 
 .share a:hover::before {
-  color: #EF431D; }
+  color: #F1B908; }
 
 .name .links a:hover {
-  background: #EF431D; }
+  background: #F1B908; }
 
 .specimen p em {
-  color: #EF431D; }
+  color: #F1B908; }
 
 .annotation .type {
-  color: #EF431D; }
+  color: #F1B908; }
 
 .similar h1, .similar h2 {
-  color: #EF431D; }
+  color: #F1B908; }
 
 .specimen p {
   font-family: Georgia, Times, "Times New Roman", serif; }
