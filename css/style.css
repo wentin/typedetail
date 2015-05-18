@@ -322,7 +322,7 @@ main {
     position: relative; }
   .styles *::after {
     font-family: "Open Sans", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
     line-height: 30px;
     color: #D0CAC2;
@@ -375,7 +375,7 @@ main {
     font-weight: 400;
     position: relative; }
     .legibility h1::after, .legibility h2::after, .legibility h3::after, .legibility h4::after, .legibility h5::after, .legibility h6::after {
-      font-weight: 400;
+      font-weight: 700;
       line-height: 30px;
       color: #D0CAC2;
       position: absolute;

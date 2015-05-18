@@ -319,7 +319,7 @@ main {
 	}
 	*::after {
 		font-family: $opensans;
-		font-weight: 400;
+		font-weight: 700;
 		font-size: 15px;
 		line-height: 30px;
 		color: #D0CAC2;
@@ -388,7 +388,7 @@ main {
 		font-weight: 400;
 		position: relative;
 		&::after {
-			font-weight: 400;
+			font-weight: 700;
 			line-height: 30px;
 			color: $light;
 			position: absolute;
