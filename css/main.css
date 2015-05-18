@@ -57,7 +57,6 @@
     margin-top: 267px; }
   .index a {
     color: #332C21;
-    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1);
     background-image: linear-gradient(to bottom, rgba(51, 44, 33, 0) 50%, rgba(51, 44, 33, 0.6) 50%);
     background-repeat: repeat-x;
     background-size: 2px 2px;
