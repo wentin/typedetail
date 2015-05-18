@@ -1,0 +1,362 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  background-color: #FDFCF6;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "kern=1", "liga=1", "dlig=1", "hlig=1";
+  -moz-font-feature-settings: "kern" on, "liga" on, "dlig" on, "hlig" on;
+  -webkit-font-feature-settings: "kern","liga","dlig","hlig";
+  -ms-font-feature-settings: "kern","liga","dlig","hlig";
+  font-feature-settings: "kern","liga","dlig","hlig"; }
+
+.clr {
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+.logo {
+  font-family: "Playfair Display SC", serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 24px;
+  color: #332C21;
+  line-height: 60px;
+  position: absolute;
+  left: 0;
+  padding-left: 11px; }
+  .logo span {
+    color: #F1B908; }
+  .logo::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: dashed 1px #332C21; }
+
+.pagination {
+  width: 134px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative; }
+  .pagination .prev,
+  .pagination .next {
+    width: 37px;
+    height: 30px;
+    position: absolute; }
+    .pagination .prev::before,
+    .pagination .next::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 15px;
+      width: 100%;
+      height: 1px;
+      background-color: #D0CAC2; }
+    .pagination .prev::after,
+    .pagination .next::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10.5px;
+      width: 8px;
+      height: 8px;
+      border-top: solid 1px #D0CAC2;
+      border-left: solid 1px #D0CAC2;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg); }
+  .pagination .next {
+    right: 0px;
+    top: 15px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg); }
+  .pagination .number {
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    background-color: #332C21;
+    color: #FDFCF6; }
+
+header {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative; }
+
+main {
+  width: 1200px;
+  margin: 0 auto; }
+
+.name {
+  width: 570px;
+  border-top: dashed 1px #D0CAC2;
+  border-bottom: dashed 1px #D0CAC2;
+  float: left;
+  position: relative; }
+  .name .links {
+    position: absolute;
+    right: 0;
+    top: 7px; }
+    .name .links a {
+      background: #D0CAC2;
+      border-radius: 40px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 11px;
+      color: #FDFCF6;
+      line-height: 15px;
+      text-transform: uppercase;
+      padding: 1px 10px;
+      transition: all 0.4s ease; }
+    .name .links a:hover {
+      background: #332C21; }
+  .name h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #332C21;
+    line-height: 80px;
+    margin-top: 10px; }
+  .name p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: #332C21;
+    line-height: 24px; }
+    .name p span {
+      margin-right: 12px; }
+    .name p span::before {
+      font-weight: 700; }
+  .name .designer::before {
+    content: 'Designer: '; }
+  .name .foundry::before {
+    content: 'Foundry: '; }
+  .name .origin::before {
+    content: 'Country of origin: '; }
+  .name .year::before {
+    content: 'Release year: '; }
+  .name .classification::before {
+    content: 'Classification: '; }
+
+.specimen {
+  width: 570px;
+  border-top: dashed 1px #D0CAC2;
+  float: right; }
+  .specimen p {
+    font-family: Georgia;
+    font-size: 28px;
+    color: #332C21;
+    line-height: 45px;
+    margin-top: 4px; }
+    .specimen p em {
+      color: #F1B908; }
+  .specimen .fontName {
+    margin-top: 8px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D0CAC2;
+    line-height: 24px; }
+
+.annotation {
+  font-family: Georgia;
+  width: 100%;
+  height: 360px;
+  text-align: center;
+  font-size: 200px;
+  color: #F1B908;
+  line-height: 360px;
+  clear: both; }
+
+.styles {
+  width: 420px;
+  margin-right: 40px; }
+  .styles::before {
+    content: 'Weights and Styles'; }
+  .styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative; }
+  .styles *::after {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #D0CAC2;
+    position: absolute;
+    right: 4px;
+    top: 0; }
+  .styles i {
+    font-style: italic;
+    width: 100%;
+    display: block; }
+  .styles i::after {
+    content: 'i';
+    font-style: normal;
+    right: 0; }
+  .styles h1 {
+    font-weight: 900; }
+    .styles h1::after {
+      content: '900'; }
+  .styles h2 {
+    font-weight: 700; }
+    .styles h2::after {
+      content: '700'; }
+  .styles h3 {
+    font-weight: 500; }
+    .styles h3::after {
+      content: '500'; }
+  .styles h4 {
+    font-weight: 400; }
+    .styles h4::after {
+      content: '400'; }
+  .styles h5 {
+    font-weight: 300; }
+    .styles h5::after {
+      content: '300'; }
+  .styles h6 {
+    font-weight: 100; }
+    .styles h6::after {
+      content: '100'; }
+
+.legibility {
+  width: 420px;
+  margin-right: 40px; }
+  .legibility::before {
+    content: 'Legibility'; }
+  .legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    position: relative; }
+    .legibility h1::after, .legibility h2::after, .legibility h3::after, .legibility h4::after, .legibility h5::after, .legibility h6::after {
+      font-weight: 400;
+      line-height: 30px;
+      color: #D0CAC2;
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px; }
+  .legibility h1 {
+    font-size: 16px; }
+    .legibility h1::after {
+      content: '16px'; }
+  .legibility h2 {
+    font-size: 14px; }
+    .legibility h2::after {
+      content: '14px'; }
+  .legibility h3 {
+    font-size: 12px; }
+    .legibility h3::after {
+      content: '12px'; }
+  .legibility h4 {
+    font-size: 10px; }
+    .legibility h4::after {
+      content: '10px'; }
+  .legibility h5 {
+    font-size: 9px; }
+    .legibility h5::after {
+      content: '9px'; }
+  .legibility h6 {
+    font-size: 8px; }
+    .legibility h6::after {
+      content: '8px'; }
+
+.similar {
+  width: 280px; }
+  .similar::before {
+    content: 'Similar Typefaces'; }
+  .similar h1, .similar h2 {
+    font-size: 48px;
+    color: #F1B908;
+    line-height: 54px;
+    position: relative;
+    padding: 16px 0; }
+    .similar h1 span, .similar h2 span {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: #D0CAC2;
+      line-height: 16px;
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+
+.styles, .legibility, .similar {
+  float: left; }
+  .styles::before, .legibility::before, .similar::before {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    color: #D0CAC2;
+    line-height: 36px;
+    padding-bottom: 6px;
+    border-bottom: dashed 1px #D0CAC2; }
+
+/*# sourceMappingURL=style.css.map */

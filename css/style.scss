@@ -1,0 +1,378 @@
+@import 'reset';
+$orange: #F1B908;
+$dark: #332C21;
+$light: #D0CAC2;
+$white: #FDFCF6;
+$opensans: 'Open Sans', sans-serif;
+$playfair: 'Playfair Display', serif;
+$playfairsc: 'Playfair Display SC', serif;
+body {
+	font-family: $opensans;
+	font-weight: normal;
+	background-color: $white;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "kern=1", "liga=1", "dlig=1", "hlig=1";
+    -moz-font-feature-settings: "kern" on, "liga" on, "dlig" on, "hlig" on;
+    -webkit-font-feature-settings: "kern","liga","dlig","hlig";
+    -ms-font-feature-settings: "kern","liga","dlig","hlig";
+    font-feature-settings: "kern","liga","dlig","hlig";
+}
+.clr {
+	clear: both;
+}
+a {
+	text-decoration: none;
+}
+.logo {
+	font-family: $playfairsc;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 24px;
+	color: $dark;
+	line-height: 60px;
+	position: absolute;
+	left: 0;
+	padding-left: 11px;
+	span {
+		color: $orange;
+	}
+	&::before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: 0;
+		top: 10px;
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: dashed 1px $dark;
+	}
+}
+.pagination {
+	width: 134px;
+	height: 60px;
+	margin: 0 auto;
+	padding: 15px 0;
+	position: relative;
+	.prev,
+	.next {
+		width: 37px;
+		height: 30px;
+		position: absolute;
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 15px;
+			width: 100%;
+			height: 1px;
+			background-color: $light;
+		}
+		&::after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 10.5px;
+			width: 8px;
+			height: 8px;
+			border-top: solid 1px $light;
+			border-left: solid 1px $light;
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+	}
+	.next {
+		right: 0px;
+		top: 15px;
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+	}
+	.number {
+		font-family: $opensans;
+		font-size: 12px;
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+		text-align: center;
+		margin: 0 auto;
+		display: block;
+		border-radius: 50%;
+		background-color: $dark;
+		color: $white;
+	}
+}
+header {
+	width: 1200px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+}
+main {
+	width: 1200px;
+	margin: 0 auto;
+}
+.name {
+	width: 570px;
+	border-top: dashed 1px $light;
+	border-bottom: dashed 1px $light;
+	float: left;
+	position: relative;
+	.links {
+		position: absolute;
+		right: 0;
+		top: 7px;
+		a {
+			background: $light;
+			border-radius: 40px;
+			font-family: $opensans;
+			font-weight: 700;
+			font-size: 11px;
+			color: $white;
+			line-height: 15px;
+			text-transform: uppercase;
+			padding: 1px 10px;
+			transition: all 0.4s ease;
+		}
+		a:hover {
+			background: $dark;
+		}
+	}
+	h1 {
+		font-family: $playfair;
+		font-weight: 700;
+		font-size: 60px;
+		color: $dark;
+		line-height: 80px;
+		margin-top: 10px;
+	}
+	p {
+		font-family: $opensans;
+		font-weight: 400;
+		font-size: 14px;
+		margin-top: 12px;
+		margin-bottom: 16px;
+		color: $dark;
+		line-height: 24px;
+		span {
+			margin-right: 12px;
+		}
+		span::before {
+			font-weight: 700;
+		}
+	}
+	.designer::before {
+		content: 'Designer: ';
+	}
+	.foundry::before {
+		content: 'Foundry: ';
+	}
+	.origin::before {
+		content: 'Country of origin: ';
+	}
+	.year::before {
+		content: 'Release year: ';
+	}
+	.classification::before {
+		content: 'Classification: ';
+	}
+}
+.specimen {
+	width: 570px;
+	border-top: dashed 1px $light;
+	float: right;
+	p {
+		font-family: Georgia;
+		font-size: 28px;
+		color: $dark;
+		line-height: 45px;
+		margin-top: 4px;
+		em {
+			color: $orange;
+		}
+	}
+	.fontName {
+		margin-top: 8px;
+		font-family: $opensans;
+		font-weight: 700;
+		font-size: 14px;
+		color: $light;
+		line-height: 24px;
+	}
+}
+.annotation {
+	font-family: Georgia;
+	width: 100%;
+	height: 360px;
+	text-align: center;
+	font-size: 200px;
+	color: $orange;
+	line-height: 360px;
+	clear: both;
+}
+.styles {
+	width: 420px;
+	margin-right: 40px;
+	&::before { 
+		content: 'Weights and Styles';
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		font-family: Georgia;
+		font-size: 16px;
+		line-height: 30px;
+		position: relative;
+	}
+	*::after {
+		font-family: $opensans;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 30px;
+		color: #D0CAC2;
+		position: absolute;
+		right: 4px;
+		top: 0;
+	}
+	i {
+		font-style: italic;
+		width: 100%;
+		display: block;
+	}
+	i::after {
+		content: 'i';
+		font-style: normal;
+		right: 0;
+	}
+	h1 {
+		font-weight: 900;
+		&::after {
+			content: '900';
+		}
+	}
+	h2 {
+		font-weight: 700;
+		&::after {
+			content: '700';
+		}
+	}
+	h3 {
+		font-weight: 500;
+		&::after {
+			content: '500';
+		}
+	}
+	h4 {
+		font-weight: 400;
+		&::after {
+			content: '400';
+		}
+	}
+	h5 {
+		font-weight: 300;
+		&::after {
+			content: '300';
+		}
+	}
+	h6 {
+		font-weight: 100;
+		&::after {
+			content: '100';
+		}
+	}
+}
+.legibility {
+	width: 420px;
+	margin-right: 40px;
+	&::before { 
+		content: 'Legibility';
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: Georgia;
+		font-size: 16px;
+		line-height: 30px;
+		font-weight: 400;
+		position: relative;
+		&::after {
+			font-weight: 400;
+			line-height: 30px;
+			color: $light;
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-family: $opensans;
+			font-size: 15px;
+		}
+	}
+	h1 {
+		font-size: 16px;
+		&::after {
+			content: '16px';
+		}
+	}
+	h2 {
+		font-size: 14px;
+		&::after {
+			content: '14px';
+		}
+	}
+	h3 {
+		font-size: 12px;
+		&::after {
+			content: '12px';
+		}
+	}
+	h4 {
+		font-size: 10px;
+		&::after {
+			content: '10px';
+		}
+	}
+	h5 {
+		font-size: 9px;
+		&::after {
+			content: '9px';
+		}
+	}
+	h6 {
+		font-size: 8px;
+		&::after {
+			content: '8px';
+		}
+	}
+}
+.similar {
+	width: 280px;
+	&::before { 
+		content: 'Similar Typefaces';
+	}
+	h1, h2 {
+		font-size: 48px;
+		color: $orange;
+		line-height: 54px;
+		position: relative;
+		padding: 16px 0;
+		span {
+			font-family: $opensans;
+			font-weight: 700;
+			font-size: 14px;
+			color: $light;
+			line-height: 16px;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+	}
+}
+.styles, .legibility, .similar {
+	float: left;
+	&::before {
+		display: block;
+		font-family: $opensans;
+		font-size: 28px;
+		color: $light;
+		line-height: 36px;
+		padding-bottom: 6px;
+		border-bottom: dashed 1px $light;
+	}
+}
