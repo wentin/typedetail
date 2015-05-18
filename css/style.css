@@ -85,18 +85,21 @@ a {
     top: 10px;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    border: dashed 1px #332C21; }
+    border-radius: 20px;
+    border: dashed 1px #332C21;
+    transition: width 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+  .logo:hover::before {
+    width: 185px; }
 
 .pagination {
-  width: 134px;
+  width: 174px;
   height: 60px;
   margin: 0 auto;
   padding: 15px 0;
   position: relative; }
   .pagination .prev,
   .pagination .next {
-    width: 37px;
+    width: 57px;
     height: 30px;
     position: absolute; }
     .pagination .prev::before,
@@ -105,21 +108,35 @@ a {
       display: block;
       position: absolute;
       top: 15px;
-      width: 100%;
+      left: 20px;
+      width: 37px;
       height: 1px;
-      background-color: #D0CAC2; }
+      background-color: #D0CAC2;
+      transition: all 0.4s ease; }
     .pagination .prev::after,
     .pagination .next::after {
       content: '';
       display: block;
       position: absolute;
       top: 10.5px;
+      left: 20px;
       width: 8px;
       height: 8px;
       border-top: solid 1px #D0CAC2;
       border-left: solid 1px #D0CAC2;
       -webkit-transform: rotate(-45deg);
-      transform: rotate(-45deg); }
+      transform: rotate(-45deg);
+      transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .pagination .prev:hover::before,
+    .pagination .next:hover::before {
+      left: 0;
+      width: 0px;
+      background-color: #332C21; }
+    .pagination .prev:hover::after,
+    .pagination .next:hover::after {
+      left: 0;
+      border-top: solid 1px #332C21;
+      border-left: solid 1px #332C21; }
   .pagination .next {
     right: 0px;
     top: 15px;
@@ -127,6 +144,7 @@ a {
     transform: rotate(180deg); }
   .pagination .number {
     font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     font-size: 12px;
     height: 30px;
     width: 30px;
@@ -136,7 +154,8 @@ a {
     display: block;
     border-radius: 50%;
     background-color: #332C21;
-    color: #FDFCF6; }
+    color: #FDFCF6;
+    cursor: default; }
 
 header {
   width: 1200px;
@@ -146,7 +165,8 @@ header {
 
 main {
   width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 60px; }
 
 .name {
   width: 570px;
@@ -168,12 +188,12 @@ main {
       line-height: 15px;
       text-transform: uppercase;
       padding: 1px 10px;
-      transition: all 0.4s ease; }
+      transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .name .links a:hover {
-      background: #332C21; }
+      background: #F1B908; }
   .name h1 {
     font-family: "Playfair Display", serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 60px;
     color: #332C21;
     line-height: 80px;
@@ -224,12 +244,70 @@ main {
 .annotation {
   font-family: Georgia;
   width: 100%;
-  height: 360px;
-  text-align: center;
-  font-size: 200px;
-  color: #F1B908;
-  line-height: 360px;
+  padding: 30px 0;
   clear: both; }
+  .annotation .type {
+    width: 1200px;
+    height: 390px;
+    text-align: center;
+    font-size: 200px;
+    color: #F1B908;
+    line-height: 390px;
+    position: relative; }
+  .annotation .note {
+    position: absolute;
+    top: 0;
+    border-left: dashed 1px #332C21;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #332C21;
+    line-height: 18px;
+    width: 150px;
+    padding: 0 0 0 10px; }
+    .annotation .note::after {
+      content: '';
+      width: 40px;
+      height: 40px;
+      border: dashed 1px #332C21;
+      border-radius: 20px;
+      display: block;
+      position: absolute;
+      top: auto;
+      bottom: -42px;
+      left: -21px;
+      right: auto; }
+  .annotation .note.left {
+    border-left: none;
+    border-right: dashed 1px #332C21;
+    text-align: right;
+    padding: 0 10px 0 0; }
+    .annotation .note.left::after {
+      top: auto;
+      bottom: -42px;
+      left: auto;
+      right: -21px; }
+  .annotation .note.bottom {
+    bottom: 0;
+    top: auto; }
+    .annotation .note.bottom span {
+      width: 150px;
+      position: absolute;
+      bottom: 0; }
+    .annotation .note.bottom::after {
+      top: -42px;
+      bottom: auto;
+      left: -21px;
+      right: auto; }
+  .annotation .note.bottom.left {
+    text-align: right; }
+    .annotation .note.bottom.left span {
+      left: 0; }
+    .annotation .note.bottom.left::after {
+      top: -42px;
+      bottom: auto;
+      left: auto;
+      right: -21px; }
 
 .styles {
   width: 420px;
