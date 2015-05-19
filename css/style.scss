@@ -1,6 +1,7 @@
 @import 'reset';
 $orange: #F1B908;
 $dark: #332C21;
+$grey: #6A6256;
 $light: #D0CAC2;
 $white: #FDFCF6;
 $opensans: 'Open Sans', sans-serif;
@@ -332,6 +333,34 @@ main {
 			bottom: auto;
 			left: auto;
 			right: -21px;
+		}
+	}
+	.line {
+		position: absolute;
+		top: 0;
+		border-left: dashed 1px $dark;
+		font-family: $opensans;
+		font-size: 14px;
+		text-align: left;
+		color: $dark;
+		line-height: 18px;
+		width: 144px;
+		padding: 0 0 0 10px;
+		&::after {
+			content: '';
+			width: 150px;
+			height: 0;
+			border-top: dashed 1px $dark;
+			display: block;
+			position: absolute;
+			top: auto;
+			bottom: 0;
+			left: 0;
+			right: auto;
+			-webkit-transform-origin: left top;
+			transform-origin: left top;
+			-webkit-transform: rotate(80deg);
+			transform: rotate(80deg);
 		}
 	}
 }

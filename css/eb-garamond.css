@@ -1,0 +1,39 @@
+.logo span {
+  color: #50C9CE; }
+
+.share a:hover::before {
+  color: #50C9CE; }
+
+.name .links a:hover {
+  background: #50C9CE; }
+
+.specimen p em {
+  color: #50C9CE; }
+
+.annotation .type {
+  color: #50C9CE; }
+
+.similar h1, .similar h2 {
+  color: #50C9CE; }
+
+.specimen p {
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+                   /* 
+font-style: italic; */ }
+
+.annotation {
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+                   /* 
+font-style: italic; */ }
+
+.styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p {
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+                   /* 
+font-style: italic; */ }
+
+.legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
+                   /* 
+font-style: italic; */ }
+
+/*# sourceMappingURL=eb-garamond.css.map */
