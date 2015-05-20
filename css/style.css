@@ -52,12 +52,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
   -moz-font-feature-settings: "kern=1", "liga=1", "dlig=1", "hlig=1";
   -moz-font-feature-settings: "kern" on, "liga" on, "dlig" on, "hlig" on;
   -webkit-font-feature-settings: "kern","liga","dlig","hlig";
   -ms-font-feature-settings: "kern","liga","dlig","hlig";
-  font-feature-settings: "kern","liga","dlig","hlig"; }
+  font-feature-settings: "kern","liga","dlig","hlig";
+  text-rendering: optimizeLegibility; }
 
 .clr {
   clear: both; }
@@ -252,6 +252,7 @@ main {
     line-height: 45px;
     margin-top: 4px; }
     .specimen p em {
+      text-rendering: optimizeLegibility;
       color: #F1B908; }
   .specimen .fontName {
     margin-top: 8px;
@@ -339,8 +340,7 @@ main {
     line-height: 18px;
     width: 144px;
     padding: 0 0 0 10px; }
-    .annotation .line::after {
-      content: '';
+    .annotation .line i {
       width: 150px;
       height: 0;
       border-top: dashed 1px #332C21;
@@ -354,6 +354,35 @@ main {
       transform-origin: left top;
       -webkit-transform: rotate(80deg);
       transform: rotate(80deg); }
+  .annotation .frame {
+    position: absolute;
+    top: 0;
+    bottom: auto;
+    border-left: dashed 1px #332C21;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #332C21;
+    line-height: 18px;
+    width: 150px;
+    padding: 0 0 0 10px; }
+    .annotation .frame span {
+      width: 150px;
+      position: absolute;
+      top: 0;
+      bottom: auto; }
+    .annotation .frame i {
+      display: block;
+      position: absolute;
+      border-top: dashed 1px #332C21;
+      width: 160px;
+      left: -80px; }
+  .annotation .frame.bottom {
+    bottom: 0;
+    top: auto; }
+    .annotation .frame.bottom span {
+      top: auto;
+      bottom: 0; }
 
 .styles {
   width: 420px;

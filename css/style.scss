@@ -16,12 +16,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
     -moz-font-feature-settings: "kern=1", "liga=1", "dlig=1", "hlig=1";
     -moz-font-feature-settings: "kern" on, "liga" on, "dlig" on, "hlig" on;
     -webkit-font-feature-settings: "kern","liga","dlig","hlig";
     -ms-font-feature-settings: "kern","liga","dlig","hlig";
     font-feature-settings: "kern","liga","dlig","hlig";
+	text-rendering: optimizeLegibility;
 }
 .clr {
 	clear: both;
@@ -245,6 +245,7 @@ main {
 		line-height: 45px;
 		margin-top: 4px;
 		em {
+			text-rendering: optimizeLegibility;
 			color: $orange;
 		}
 	}
@@ -346,8 +347,7 @@ main {
 		line-height: 18px;
 		width: 144px;
 		padding: 0 0 0 10px;
-		&::after {
-			content: '';
+		i {
 			width: 150px;
 			height: 0;
 			border-top: dashed 1px $dark;
@@ -361,6 +361,40 @@ main {
 			transform-origin: left top;
 			-webkit-transform: rotate(80deg);
 			transform: rotate(80deg);
+		}
+	}
+	.frame {
+		position: absolute;
+		top: 0;
+		bottom: auto;
+		border-left: dashed 1px $dark;
+		font-family: $opensans;
+		font-size: 14px;
+		text-align: left;
+		color: $dark;
+		line-height: 18px;
+		width: 150px;
+		padding: 0 0 0 10px;
+		span {
+			width: 150px;
+			position: absolute;
+			top: 0;
+			bottom: auto;
+		}
+		i {
+			display: block;
+			position: absolute;
+			border-top: dashed 1px $dark;
+			width: 160px;
+			left: -80px;
+		}
+	}
+	.frame.bottom {
+		bottom: 0;
+		top: auto;
+		span {
+			top: auto;
+			bottom: 0;
 		}
 	}
 }
