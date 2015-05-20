@@ -443,24 +443,30 @@ main {
 		}
 	}
 	h3 {
+		font-weight: 600;
+		&::after {
+			content: '600';
+		}
+	}
+	h4 {
 		font-weight: 500;
 		&::after {
 			content: '500';
 		}
 	}
-	h4 {
+	h5 {
 		font-weight: 400;
 		&::after {
 			content: '400';
 		}
 	}
-	h5 {
+	h6 {
 		font-weight: 300;
 		&::after {
 			content: '300';
 		}
 	}
-	h6 {
+	p {
 		font-weight: 100;
 		&::after {
 			content: '100';

@@ -420,20 +420,24 @@ main {
     .styles h2::after {
       content: '700'; }
   .styles h3 {
-    font-weight: 500; }
+    font-weight: 600; }
     .styles h3::after {
-      content: '500'; }
+      content: '600'; }
   .styles h4 {
-    font-weight: 400; }
+    font-weight: 500; }
     .styles h4::after {
-      content: '400'; }
+      content: '500'; }
   .styles h5 {
-    font-weight: 300; }
+    font-weight: 400; }
     .styles h5::after {
-      content: '300'; }
+      content: '400'; }
   .styles h6 {
-    font-weight: 100; }
+    font-weight: 300; }
     .styles h6::after {
+      content: '300'; }
+  .styles p {
+    font-weight: 100; }
+    .styles p::after {
       content: '100'; }
 
 .legibility {

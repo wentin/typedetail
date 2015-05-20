@@ -17,23 +17,15 @@
   color: #50C9CE; }
 
 .specimen p {
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
-                   /* 
-font-style: italic; */ }
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif; }
 
 .annotation {
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
-                   /* 
-font-style: italic; */ }
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif; }
 
 .styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p {
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
-                   /* 
-font-style: italic; */ }
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif; }
 
 .legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
-  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif;
-                   /* 
-font-style: italic; */ }
+  font-family: "EB Garamond", Georgia, Times, "Times New Roman", serif; }
 
 /*# sourceMappingURL=eb-garamond.css.map */
