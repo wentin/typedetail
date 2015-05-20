@@ -252,7 +252,6 @@ main {
     line-height: 45px;
     margin-top: 4px; }
     .specimen p em {
-      text-rendering: optimizeLegibility;
       color: #F1B908; }
   .specimen .fontName {
     margin-top: 8px;
