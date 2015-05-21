@@ -63,10 +63,7 @@
   .index ul {
     margin-top: 14px;
     width: 450px;
-    counter-reset: code-number-counter;
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3; }
+    counter-reset: code-number-counter; }
     .index ul li {
       font-weight: 400;
       font-size: 14px;
