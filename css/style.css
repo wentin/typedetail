@@ -504,6 +504,7 @@ main {
     content: 'Similar Typefaces'; }
   .similar h1, .similar h2 {
     font-size: 48px;
+    font-weight: 400;
     color: #F1B908;
     line-height: 54px;
     position: relative;
