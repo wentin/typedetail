@@ -386,6 +386,21 @@ main {
 			border-top: dashed 1px $dark;
 			width: 160px;
 			left: -80px;
+			right: auto;
+		}
+	}
+	.frame.left {
+		border-left: none;
+		border-right: dashed 1px $dark;
+		text-align: right;
+		padding: 0 10px 0 0;
+		text-align: right;
+		span {
+			left: 0;
+		}
+		i {
+			left: auto;
+			right: -80px;
 		}
 	}
 	.frame.bottom {
