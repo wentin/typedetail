@@ -63,7 +63,8 @@
   .index ul {
     margin-top: 14px;
     width: 450px;
-    counter-reset: code-number-counter; }
+    counter-reset: code-number-counter;
+    color: #D0CAC2; }
     .index ul li {
       font-weight: 400;
       font-size: 14px;
