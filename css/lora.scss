@@ -1,0 +1,60 @@
+$tint: #50C9CE;
+$font: 'Lora', serif;
+
+.logo {
+	span {
+		color: $tint;
+	}
+}
+.share{
+	a:hover {
+		&::before {
+			color: $tint;
+		}
+	}	
+}
+.name {
+	.links {
+		a:hover {
+			background: $tint;
+		}
+	}
+}
+.specimen {
+	p {
+		em {
+			color: $tint;
+		}
+	}
+}
+.annotation {
+	.type {
+		color: $tint;
+	}
+}
+
+.similar {
+	h1, h2 {
+		color: $tint;
+	}
+}
+
+.specimen {
+	p {
+		font-family: $font;
+	}
+}
+
+.annotation {
+	font-family: $font;
+}
+.styles {
+	h1, h2, h3, h4, h5, h6, p {
+		font-family: $font;
+	}
+}
+.legibility {
+	h1, h2, h3, h4, h5, h6 {
+		font-family: $font;
+	}
+}
