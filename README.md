@@ -8,7 +8,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 - [EB Garamond](http://typedetail.com/eb-garamond.html)
 - [Freight Display Pro](http://typedetail.com/freight-display-pro.html)
 - [Adobe Caslon Pro](http://typedetail.com/caslon.html)
-- [lora](http://typedetail.com/lora.html)
+- [Lora](http://typedetail.com/lora.html)
 - [San Francisco](http://typedetail.com/san-francisco.html)
 
 
