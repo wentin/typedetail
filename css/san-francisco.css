@@ -1,0 +1,31 @@
+.logo span {
+  color: #EF431D; }
+
+.share a:hover::before {
+  color: #EF431D; }
+
+.name .links a:hover {
+  background: #EF431D; }
+
+.specimen p em {
+  color: #EF431D; }
+
+.annotation .type {
+  color: #EF431D; }
+
+.similar h1, .similar h2 {
+  color: #EF431D; }
+
+.specimen p {
+  font-family: "San Francisco Text", sans-serif; }
+
+.annotation {
+  font-family: "San Francisco Text", sans-serif; }
+
+.styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p, .styles div {
+  font-family: "San Francisco Text", sans-serif; }
+
+.legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+  font-family: "San Francisco Text", sans-serif; }
+
+/*# sourceMappingURL=san-francisco.css.map */

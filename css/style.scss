@@ -419,7 +419,7 @@ main {
 		content: 'Weights and Styles';
 		margin-bottom: 10px;
 	}
-	h1, h2, h3, h4, h5, h6, p {
+	h1, h2, h3, h4, h5, h6, p, div {
 		font-family: Georgia;
 		font-size: 16px;
 		line-height: 30px;
@@ -451,7 +451,25 @@ main {
 			content: '900';
 		}
 	}
+	.f900 {
+		font-weight: 900;
+		&::after {
+			content: '900';
+		}
+	}
+	.f800 {
+		font-weight: 800;
+		&::after {
+			content: '800';
+		}
+	}
 	h2 {
+		font-weight: 700;
+		&::after {
+			content: '700';
+		}
+	}
+	.f700 {
 		font-weight: 700;
 		&::after {
 			content: '700';
@@ -463,7 +481,19 @@ main {
 			content: '600';
 		}
 	}
+	.f600 {
+		font-weight: 600;
+		&::after {
+			content: '600';
+		}
+	}
 	h4 {
+		font-weight: 500;
+		&::after {
+			content: '500';
+		}
+	}
+	.f500 {
 		font-weight: 500;
 		&::after {
 			content: '500';
@@ -475,10 +505,28 @@ main {
 			content: '400';
 		}
 	}
+	.f400 {
+		font-weight: 400;
+		&::after {
+			content: '400';
+		}
+	}
 	h6 {
 		font-weight: 300;
 		&::after {
 			content: '300';
+		}
+	}
+	.f300 {
+		font-weight: 300;
+		&::after {
+			content: '300';
+		}
+	}
+	.f200 {
+		font-weight: 200;
+		&::after {
+			content: '200';
 		}
 	}
 	p {

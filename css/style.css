@@ -401,7 +401,7 @@ main {
   .styles::before {
     content: 'Weights and Styles';
     margin-bottom: 10px; }
-  .styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p {
+  .styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p, .styles div {
     font-family: Georgia;
     font-size: 16px;
     line-height: 30px;
@@ -427,26 +427,58 @@ main {
     font-weight: 900; }
     .styles h1::after {
       content: '900'; }
+  .styles .f900 {
+    font-weight: 900; }
+    .styles .f900::after {
+      content: '900'; }
+  .styles .f800 {
+    font-weight: 800; }
+    .styles .f800::after {
+      content: '800'; }
   .styles h2 {
     font-weight: 700; }
     .styles h2::after {
+      content: '700'; }
+  .styles .f700 {
+    font-weight: 700; }
+    .styles .f700::after {
       content: '700'; }
   .styles h3 {
     font-weight: 600; }
     .styles h3::after {
       content: '600'; }
+  .styles .f600 {
+    font-weight: 600; }
+    .styles .f600::after {
+      content: '600'; }
   .styles h4 {
     font-weight: 500; }
     .styles h4::after {
+      content: '500'; }
+  .styles .f500 {
+    font-weight: 500; }
+    .styles .f500::after {
       content: '500'; }
   .styles h5 {
     font-weight: 400; }
     .styles h5::after {
       content: '400'; }
+  .styles .f400 {
+    font-weight: 400; }
+    .styles .f400::after {
+      content: '400'; }
   .styles h6 {
     font-weight: 300; }
     .styles h6::after {
       content: '300'; }
+  .styles .f300 {
+    font-weight: 300; }
+    .styles .f300::after {
+      content: '300'; }
+  .styles .f200 {
+    font-weight: 200; }
+    .styles .f200::after {
+      content: '200'; }
   .styles p {
     font-weight: 100; }
     .styles p::after {
