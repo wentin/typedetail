@@ -19,6 +19,10 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 * Sketch Plugin: [Sketch States Switch](https://github.com/wentin/sketch-states-switch)
 * Mini Blog CMS hack: [Hack the Hackpad](https://github.com/wentin/Hack-the-Hackpad)
 
+
+####Mentions (thank you!)
+[The Next Web](http://thenextweb.com/apple/2015/05/25/font-of-all-knowledge/)
+
 ####Contact
 * Follow [@DesignJokes](http://twitter.com/DesignJokes) on Twitter
 * Read on [Medium](https://medium.com/@wenting_zhang)
