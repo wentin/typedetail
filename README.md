@@ -22,6 +22,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 
 ####Mentions (thank you!)
 * [The Next Web](http://thenextweb.com/apple/2015/05/25/font-of-all-knowledge/)
+* [Engadget](http://de.engadget.com/2015/05/25/apples-neue-font-san-francisco-unter-der-lupe/)
 * [sidebar.io](http://sidebar.io/2015/5/24)
 * [9to5mac.com](http://9to5mac.com/2015/05/25/apple-typeface-san-francisco/)
 * [iphone ticker](http://www.iphone-ticker.de/san-francisco-alle-hintergruende-zur-neuen-ios-9-schriftart-82024/)
