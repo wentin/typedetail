@@ -13,7 +13,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 
 
 ####Other Porjects by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/)
-* typographic javascript library: [underline.js](https://github.com/wentin/underlineJS)
+* Typographic javascript library: [underline.js](https://github.com/wentin/underlineJS)
   * underline.js is nominated for [Net Awards: Side Project of the Year](https://thenetawards.com/vote/side-project/underline-js/), vote for it!
 * Resume Online builder: [profession.is](http://profession.is/#/)
 * Sketch Plugin: [Sketch States Switch](https://github.com/wentin/sketch-states-switch)
