@@ -23,6 +23,8 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 ####Mentions (thank you!)
 * [The Next Web](http://thenextweb.com/apple/2015/05/25/font-of-all-knowledge/)
 * [sidebar.io](http://sidebar.io/2015/5/24)
+* [9to5mac.com](http://9to5mac.com/2015/05/25/apple-typeface-san-francisco/)
+
 
 ####Contact
 * Follow [@DesignJokes](http://twitter.com/DesignJokes) on Twitter
