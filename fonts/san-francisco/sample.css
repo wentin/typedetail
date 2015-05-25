@@ -1,0 +1,43 @@
+@import url(http://nicholastodor.com/sf/usesf.css);
+
+.display {
+	font-family: 'San Francisco Display';
+	font-size: 36px;
+}
+
+.text {
+	font-family: 'San Francisco Text';
+	font-size: 16px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+._100 {
+	font-weight: 100;
+}
+._200 {
+	font-weight: 200;
+}
+._300 {
+	font-weight: 300;
+}
+._400 {
+	font-weight: 400;
+}
+._500 {
+	font-weight: 500;
+}
+._600 {
+	font-weight: 600;
+}
+._700 {
+	font-weight: 700;
+}
+._800 {
+	font-weight: 800;
+}
+._900 {
+	font-weight: 900;
+}
