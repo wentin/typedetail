@@ -71,12 +71,13 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		width: 450px;
 		font-weight: 400;
 		font-size: 14px;
-		color: $grey;
+		color: $dark;
 		line-height: 20px;
 		margin-top: 267px;
 	}
 	a {
 		color: $dark;
+  		font-weight: 600;
 		transition: all 0.4s $easing;
 	}
 	a:hover {

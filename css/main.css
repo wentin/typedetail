@@ -52,11 +52,12 @@
     width: 450px;
     font-weight: 400;
     font-size: 14px;
-    color: #6A6256;
+    color: #332C21;
     line-height: 20px;
     margin-top: 267px; }
   .index a {
     color: #332C21;
+    font-weight: 600;
     transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .index a:hover {
     color: #EF431D; }
