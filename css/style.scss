@@ -148,6 +148,12 @@ a {
 			color: $orange;
 		}
 	}		
+	.newsletter {
+		&::before {
+			font-size: 26px;
+			content: "\e606";
+		}
+	}
 	.github {
 		&::before {
 			font-size: 26px;

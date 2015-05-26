@@ -171,6 +171,9 @@ a {
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .share a:hover::before {
     color: #F1B908; }
+  .share .newsletter::before {
+    font-size: 26px;
+    content: "\e606"; }
   .share .github::before {
     font-size: 26px;
     content: "\e603"; }
