@@ -92,14 +92,14 @@ a {
     width: 185px; }
 
 .pagination {
-  width: 174px;
+  width: 214px;
   height: 60px;
   margin: 0 auto;
   padding: 15px 0;
   position: relative; }
   .pagination .prev,
   .pagination .next {
-    width: 57px;
+    width: 77px;
     height: 30px;
     position: absolute; }
     .pagination .prev::before,
@@ -109,7 +109,7 @@ a {
       position: absolute;
       top: 15px;
       left: 20px;
-      width: 37px;
+      width: 57px;
       height: 1px;
       background-color: #D0CAC2;
       transition: all 0.4s ease; }
@@ -127,6 +127,15 @@ a {
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .pagination .prev span,
+    .pagination .next span {
+      color: #332C21;
+      font-size: 10px;
+      line-height: 30px;
+      text-align: right;
+      float: right;
+      opacity: 0;
+      transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .pagination .prev:hover::before,
     .pagination .next:hover::before {
       left: 0;
@@ -137,11 +146,18 @@ a {
       left: 0;
       border-top: solid 1px #332C21;
       border-left: solid 1px #332C21; }
+    .pagination .prev:hover span,
+    .pagination .next:hover span {
+      opacity: 1;
+      transition-delay: 0.15s; }
   .pagination .next {
     right: 0px;
     top: 15px;
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg); }
+    .pagination .next span {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg); }
   .pagination .number {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
