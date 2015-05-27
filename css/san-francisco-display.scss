@@ -32,6 +32,11 @@ $font: 'San Francisco Display', sans-serif;
 	.type {
 		color: $tint;
 	}
+	span {
+		em {
+			color: $tint;
+		}
+	}
 }
 
 .similar {

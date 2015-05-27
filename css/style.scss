@@ -395,6 +395,8 @@ main {
 			width: 160px;
 			left: -80px;
 			right: auto;
+			bottom: 0;
+			top: auto;
 		}
 	}
 	.frame.left {
@@ -417,6 +419,10 @@ main {
 		span {
 			top: auto;
 			bottom: 0;
+		}
+		i {
+			top:  0;
+			bottom: auto;
 		}
 	}
 }
@@ -537,6 +543,12 @@ main {
 			content: '200';
 		}
 	}
+	.f100 {
+		font-weight: 100;
+		&::after {
+			content: '100';
+		}
+	}
 	p {
 		font-weight: 100;
 		&::after {
@@ -626,6 +638,10 @@ main {
 			position: absolute;
 			left: 0;
 			bottom: 0;
+		}
+		img {
+			width: 100%;
+			height: auto;
 		}
 	}
 }

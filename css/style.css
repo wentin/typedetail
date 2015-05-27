@@ -379,7 +379,9 @@ main {
       border-top: dashed 1px #332C21;
       width: 160px;
       left: -80px;
-      right: auto; }
+      right: auto;
+      bottom: 0;
+      top: auto; }
   .annotation .frame.left {
     border-left: none;
     border-right: dashed 1px #332C21;
@@ -397,6 +399,9 @@ main {
     .annotation .frame.bottom span {
       top: auto;
       bottom: 0; }
+    .annotation .frame.bottom i {
+      top: 0;
+      bottom: auto; }
 
 .styles {
   width: 420px;
@@ -482,6 +487,10 @@ main {
     font-weight: 200; }
     .styles .f200::after {
       content: '200'; }
+  .styles .f100 {
+    font-weight: 100; }
+    .styles .f100::after {
+      content: '100'; }
   .styles p {
     font-weight: 100; }
     .styles p::after {
@@ -553,6 +562,9 @@ main {
       position: absolute;
       left: 0;
       bottom: 0; }
+    .similar h1 img, .similar h2 img {
+      width: 100%;
+      height: auto; }
 
 .styles, .legibility, .similar {
   float: left; }

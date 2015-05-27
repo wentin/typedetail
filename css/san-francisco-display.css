@@ -13,6 +13,8 @@
 
 .annotation .type {
   color: #EF431D; }
+.annotation span em {
+  color: #EF431D; }
 
 .similar h1, .similar h2 {
   color: #EF431D; }
