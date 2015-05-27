@@ -61,14 +61,14 @@ a {
 	}
 }
 .pagination {
-	width: 174px;
+	width: 214px;
 	height: 60px;
 	margin: 0 auto;
 	padding: 15px 0;
 	position: relative;
 	.prev,
 	.next {
-		width: 57px;
+		width: 77px;
 		height: 30px;
 		position: absolute;
 		&::before {
@@ -77,7 +77,7 @@ a {
 			position: absolute;
 			top: 15px;
 			left: 20px;
-			width: 37px;
+			width: 57px;
 			height: 1px;
 			background-color: $light;
 			transition: all 0.4s ease;
@@ -96,6 +96,15 @@ a {
 			transform: rotate(-45deg);
 			transition: all 0.4s $easing;
 		}
+		span {
+			color: $dark;		
+			font-size: 10px;
+			line-height: 30px;
+			text-align: right;
+			float: right;
+			opacity: 0;
+			transition: all 0.4s $easing;
+		}
 		&:hover::before {
 			left: 0;
 			width: 0px;
@@ -106,12 +115,20 @@ a {
 			border-top: solid 1px $dark;
 			border-left: solid 1px $dark;
 		}
+		&:hover span {
+			opacity: 1;
+			transition-delay: 0.15s;
+		}
 	}
 	.next {
 		right: 0px;
 		top: 15px;
 		-webkit-transform: rotate(180deg);
 		transform: rotate(180deg);
+		span {
+			-webkit-transform: rotate(180deg);
+			transform: rotate(180deg);	
+		}
 	}
 	.number {
 		font-family: $opensans;
