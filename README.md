@@ -10,6 +10,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 - [Adobe Caslon Pro](http://typedetail.com/caslon.html)
 - [Lora](http://typedetail.com/lora.html)
 - [San Francisco](http://typedetail.com/san-francisco.html)
+- [San Francisco Display](http://typedetail.com/san-francisco-display.html)
 
 
 ####Other Porjects by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/)
