@@ -31,6 +31,18 @@ body {
 a {
 	text-decoration: none;
 }
+.swash {
+    font-feature-settings:"swsh" 2; 
+    -moz-font-feature-settings:"swsh=2";
+    -webkit-font-feature-settings:"swsh" 2;
+}
+.note {
+	font-family: $opensans;
+	font-weight: 400;
+	color: $grey;
+	font-size: 14px;
+	line-height: 30px;
+}
 .logo {
 	font-family: $playfairsc;
 	font-weight: 900;
@@ -319,6 +331,74 @@ main {
 			bottom: -42px;
 			left: -21px;
 			right: auto;
+		}
+	}
+	.note.medium {
+		&::after {
+			width: 60px;
+			height: 60px;
+			border-radius: 30px;
+			bottom: -62px;
+			left: -31px;
+			right: auto;
+		}
+		&.left {
+			&::after {
+				top: auto;
+				bottom: -62px;
+				left: auto;
+				right: -31px;
+			}
+		}
+		&.bottom {
+			&::after {
+				top: -62px;
+				bottom: auto;
+				left: -31px;
+				right: auto;
+			}
+		}
+		&.bottom.left {
+			&::after {
+				top: -62px;
+				bottom: auto;
+				left: auto;
+				right: -31px;
+			}
+		}
+	}
+	.note.large {
+		&::after {
+			width: 80px;
+			height: 80px;
+			border-radius: 40px;
+			bottom: -82px;
+			left: -41px;
+			right: auto;
+		}
+		&.left {
+			&::after {
+				top: auto;
+				bottom: -82px;
+				left: auto;
+				right: -41px;
+			}
+		}
+		&.bottom {
+			&::after {
+				top: -82px;
+				bottom: auto;
+				left: -41px;
+				right: auto;
+			}
+		}
+		&.bottom.left {
+			&::after {
+				top: -82px;
+				bottom: auto;
+				left: auto;
+				right: -41px;
+			}
 		}
 	}
 	.note.left {
