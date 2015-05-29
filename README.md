@@ -24,7 +24,7 @@ If you are interested in joining me on this type exploratory trip, you could gra
 3. make a copy of `template.html` and `css/template.scss` (or template.css if you don't use sass)
 4. Inside `template.html`, I have commented out all the annotation markups from which you can pick and use, there are three kinds of annotations
     * `div.note`: you can add more class
-        * `.large` and `.medium` control the size of the circle
+        * `.large` and `.medium` change the size of the circle
         * `.bottom` control the position
         * `.left` control which side the text should be
     * `div.line`:  it is used to annotate the stress angle, add inline rotate css to control the angle of the stress angle line
