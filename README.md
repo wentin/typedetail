@@ -12,7 +12,6 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 - [San Francisco](http://typedetail.com/san-francisco.html)
 - [San Francisco Display](http://typedetail.com/san-francisco-display.html)
 - [Alegreya](http://typedetail.com/alegreya.html)
-- [Alegreya](http://typedetail.com/alegreya.html)
 - [Libre Baskerville](http://typedetail.com/libre-baskerville.html)
 - [Obsidian](http://typedetail.com/obsidian.html)
 
