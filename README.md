@@ -1,7 +1,7 @@
 Type Detail
 ----------
 
-Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/), inspired by the great discontent's [100 day project](https://thegreatdiscontent.com/100days) and Stephen Coles's great book [The Anatomy of Type](http://typeanatomy.com/). The rule and goal is to annotate a web typeface each day, pointing out the beautiful details of the type forms that often get overlooked.
+Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/), inspired by the great discontent's [100 day project](https://thegreatdiscontent.com/100days) and Stephen Coles's great book [The Anatomy of Type](http://typeanatomy.com/). The rule and goal are to annotate a web typeface each day, pointing out the beautiful details of the type forms that often get overlooked.
 
 ####Progress
 - [Georgia](http://typedetail.com/georgia.html)
@@ -11,9 +11,33 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 - [Lora](http://typedetail.com/lora.html)
 - [San Francisco](http://typedetail.com/san-francisco.html)
 - [San Francisco Display](http://typedetail.com/san-francisco-display.html)
+- [Alegreya](http://typedetail.com/alegreya.html)
+- [Alegreya](http://typedetail.com/alegreya.html)
+- [Libre Baskerville](http://typedetail.com/libre-baskerville.html)
+- [Obsidian](http://typedetail.com/obsidian.html)
 
+####Template
+If you are interested joining me on this type exploratory trip, you can grab my template and start making annotating of your favorite typeface on your own.
+1. dowanload the [template zip file](https://github.com/wentin/typedetail/raw/gh-pages/template/template.zip);
+2. unzip it, you will find a `template.html` file with supporting folders such as `css` and `js`
+3. make a copy of `template.html` and `css/template.scss` (or template.css if you don't use sass)
+4. Inside `template.html`, I have commented out all the annotation markups from which you can pick and use, there are three kinds of annotations
+    * `div.note`: you can add more class
+        * `.large` and `.medium` control the size of the circle
+        * `.bottom` control the position
+        * `.left` control which side the text should be
+    * `div.line`:  it is used to annotate the stress angle, add inline rotate css to control the angle of the stress angle line
+    * `div.frame`: it is used to annotate typeface's metrics such as x-height, cap height, ascender height, descender height
+        * add `<i></i>` to add a line, use inline css to change the position
+        * add class `.bottom` to control the position
+        * add class `.left` to control which side the text should be
+5. inside `template.scss`, there is just two variable for you to change
+    * `$tint`: change the accent color of the page 
+    * `$font`:  change it to the typeface you are annotating
 
-####Other Porjects by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/)
+6. I have a [pilot checklist](https://hackpad.com/Type-Detail-Checklist-YOFriuaXEkj) for annotating a new typeface, to make sure all the necessary information from the template file are changed to accuracy.
+
+####Other Projects by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/)
 * Typographic javascript library: [underline.js](https://github.com/wentin/underlineJS)
   * underline.js is nominated for [Net Awards: Side Project of the Year](https://thenetawards.com/vote/side-project/underline-js/), vote for it!
 * Resume Online builder: [profession.is](http://profession.is/#/)
