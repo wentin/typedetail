@@ -67,13 +67,16 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	box-sizing: border-box;
 	float: left;
 	font-family: $opensans;
+	p:first-child {
+		margin-top: 267px;
+	}
 	p {
 		width: 450px;
 		font-weight: 400;
 		font-size: 14px;
 		color: $dark;
 		line-height: 20px;
-		margin-top: 267px;
+		margin-top: 14px;
 	}
 	a {
 		color: $dark;
