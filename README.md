@@ -19,7 +19,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 ####Template
 If you are interested in joining me on this type exploratory trip, you could grab my template and start making annotation of your favorite typefaces.
 
-1.  dowanload the [template zip file](https://github.com/wentin/typedetail/raw/gh-pages/template/template.zip);
+1.  dowanload the [template zip file](https://github.com/wentin/typedetail/raw/gh-pages/template/template.zip), here is how the template looks in [browser](http://typedetail.com/template/template.html);
 2. unzip it, you will find a `template.html` file with supporting folders such as `css` and `js`
 3. make a copy of `template.html` and `css/template.scss` (or template.css if you don't use sass)
 4. Inside `template.html`, I have commented out all the annotation markups from which you can pick and use, there are three kinds of annotations
