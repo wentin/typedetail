@@ -17,7 +17,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 - [Obsidian](http://typedetail.com/obsidian.html)
 
 ####Template
-If you are interested joining me on this type exploratory trip, you can grab my template and start making annotating of your favorite typeface on your own.
+If you are interested joining me on this type exploratory trip, you can grab my template and start making annotation of your favorite typefaces.
 
 1.  dowanload the [template zip file](https://github.com/wentin/typedetail/raw/gh-pages/template/template.zip);
 2. unzip it, you will find a `template.html` file with supporting folders such as `css` and `js`
