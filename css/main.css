@@ -48,13 +48,15 @@
   box-sizing: border-box;
   float: left;
   font-family: "Open Sans", sans-serif; }
+  .index p:first-child {
+    margin-top: 267px; }
   .index p {
     width: 450px;
     font-weight: 400;
     font-size: 14px;
     color: #332C21;
     line-height: 20px;
-    margin-top: 267px; }
+    margin-top: 14px; }
   .index a {
     color: #332C21;
     font-weight: 600;
