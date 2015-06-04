@@ -13,7 +13,7 @@ $(function(){
 	});
 	$('.vote').click(function(e) {
 	    e.preventDefault();
-	    window.open('https://thenetawards.com/vote/talent/wenting-zhang/');
 	    window.open('https://thenetawards.com/vote/side-project/underline-js/');
+	    window.open('https://thenetawards.com/vote/talent/wenting-zhang/');
 	});
 })
