@@ -3,6 +3,8 @@
 
 .share a:hover::before {
   color: #F1B908; }
+.share .vote i::after {
+  color: #F1B908; }
 
 .name .links a:hover {
   background: #F1B908; }

@@ -12,6 +12,9 @@ $font:  'bookerly', 'Times New Roman', serif;
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .name {
 	.links {

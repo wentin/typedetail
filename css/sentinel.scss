@@ -13,6 +13,9 @@ $font: 'Sentinel A', 'Sentinel B', serif;
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .name {
 	.links {

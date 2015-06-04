@@ -12,6 +12,9 @@ $font: 'EB Garamond', Georgia, Times, 'Times New Roman', serif;
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .name {
 	.links {

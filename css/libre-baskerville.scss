@@ -12,6 +12,9 @@ $font: 'Libre Baskerville', serif;
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .name {
 	.links {

@@ -12,6 +12,9 @@ $font: 'Lora', serif;
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .name {
 	.links {

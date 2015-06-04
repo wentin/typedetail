@@ -19,6 +19,9 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .title {
 	width: 570px;

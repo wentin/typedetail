@@ -3,6 +3,8 @@
 
 .share a:hover::before {
   color: #EF431D; }
+.share .vote i::after {
+  color: #EF431D; }
 
 .title {
   width: 570px;

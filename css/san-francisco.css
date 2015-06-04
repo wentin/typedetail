@@ -4,6 +4,8 @@
 
 .share a:hover::before {
   color: #EF431D; }
+.share .vote i::after {
+  color: #EF431D; }
 
 .name .links a:hover {
   background: #EF431D; }

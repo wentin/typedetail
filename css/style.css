@@ -1,4 +1,65 @@
 @import url(//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+@keyframes "heart" {
+  0% {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1; }
+  50% {
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+@-moz-keyframes heart {
+  0% {
+    -moz-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1; }
+  50% {
+    -moz-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.6; }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+@-webkit-keyframes "heart" {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1; }
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.6; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
+@-ms-keyframes "heart" {
+  0% {
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 1; }
+  50% {
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.6; }
+  100% {
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1; } }
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
@@ -142,7 +203,53 @@ a {
 .share {
   position: absolute;
   right: 0;
-  top: 18px; }
+  top: 18px;
+  width: 480px;
+  text-align: right; }
+  .share .vote {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #D0CAC2;
+    line-height: 18px;
+    position: absolute;
+    top: -6px;
+    z-index: 99;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .share .vote i {
+      position: absolute;
+      left: 160px;
+      top: -2px;
+      width: 40px;
+      height: 40px;
+      opacity: 0;
+      transform: scale(0.1, 0.1);
+      transform-origin: center center;
+      transition: all 0.6s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .share .vote i::after {
+      position: absolute;
+      display: block;
+      width: 40px;
+      height: 40px;
+      font-family: 'icomoon';
+      font-style: normal;
+      content: "\e60c";
+      color: #EF431D;
+      font-size: 40px;
+      line-height: 40px;
+      transform-origin: center center; }
+    .share .vote:hover {
+      color: #6A6256; }
+    .share .vote:hover i {
+      transform: scale(1, 1);
+      opacity: 0.9; }
+      .share .vote:hover i::after {
+        -webkit-animation: heart 1s linear 0.4s infinite both;
+        -moz-animation: heart 1s linear 0.4s infinite both;
+        -ms-animation: heart 1s linear 0.4s infinite both;
+        animation: heart 1s linear 0.4s infinite both; }
   .share a {
     width: 24px;
     margin-left: 6px; }
@@ -155,7 +262,7 @@ a {
     color: #F1B908; }
   .share .newsletter::before {
     font-size: 26px;
-    content: "\e606"; }
+    content: "\e605"; }
   .share .github::before {
     font-size: 26px;
     content: "\e603"; }
@@ -241,7 +348,7 @@ main {
       content: 'Distinctive glyphs';
       display: block;
       position: absolute;
-      left: 0;
+      right: 0;
       bottom: -32px;
       font-family: "Open Sans", sans-serif;
       font-weight: 700;

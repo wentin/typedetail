@@ -12,6 +12,9 @@ $font: 'freight-display-pro', Georgia, Times, 'Times New Roman', serif;
 			color: $tint;
 		}
 	}	
+	.vote i::after {
+		color: $tint;
+	}
 }
 .name {
 	.links {
