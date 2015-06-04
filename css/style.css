@@ -209,7 +209,6 @@ a {
   .share .vote {
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    font-weight: bold;
     font-size: 14px;
     color: #D0CAC2;
     line-height: 18px;
@@ -220,7 +219,7 @@ a {
     transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .share .vote i {
       position: absolute;
-      left: 160px;
+      left: 145px;
       top: -2px;
       width: 40px;
       height: 40px;

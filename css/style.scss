@@ -253,7 +253,6 @@ a {
 	.vote {
 		font-family: $opensans;
 		text-align: center;
-		font-weight: bold;
 		font-size: 14px;
 		color: $light;
 		line-height: 18px;
@@ -264,7 +263,7 @@ a {
 		transition: all 0.4s $easing;
 		i {
 			position: absolute;
-			left: 160px;
+			left: 145px;
 			top: -2px;
 			width: 40px;
 			height: 40px;
