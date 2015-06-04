@@ -235,7 +235,19 @@ main {
     font-size: 28px;
     color: #332C21;
     line-height: 45px;
-    margin-top: 4px; }
+    margin-top: 4px;
+    position: relative; }
+    .specimen p::after {
+      content: 'Distinctive glyphs';
+      display: block;
+      position: absolute;
+      left: 0;
+      bottom: -32px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      color: #D0CAC2;
+      line-height: 24px; }
     .specimen p em {
       color: #F1B908; }
   .specimen .fontName {
@@ -244,7 +256,8 @@ main {
     font-weight: 700;
     font-size: 14px;
     color: #D0CAC2;
-    line-height: 24px; }
+    line-height: 24px;
+    display: none; }
 
 .annotation {
   font-family: Georgia;
