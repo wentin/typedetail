@@ -1,7 +1,7 @@
 Type Detail
 ----------
 
-Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/), inspired by the great discontent's [100 day project](https://thegreatdiscontent.com/100days) and Stephen Coles's great book [The Anatomy of Type](http://typeanatomy.com/). The rule and goal are to annotate a web typeface each day, pointing out the beautiful details of the type forms that one often takes for granted.
+Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/), inspired by the great discontent's [100 day project](https://thegreatdiscontent.com/100days) and Stephen Coles's great book [The Anatomy of Type](http://typeanatomy.com/). The rule and goal are to annotate a web typeface each day, pointing out the beautiful details of the typefaces that one often takes for granted.
 
 ####Progress
 - [Georgia](http://typedetail.com/georgia.html)
