@@ -334,28 +334,29 @@ main {
 
 .specimen {
   width: 570px;
+  height: 163px;
   border-top: dashed 1px #D0CAC2;
-  float: right; }
+  float: right;
+  position: relative; }
+  .specimen::after {
+    content: 'Distinctive glyphs';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -9px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #D0CAC2;
+    line-height: 24px;
+    background-color: #FDFCF6;
+    padding-left: 4px; }
   .specimen p {
     font-family: Georgia;
     font-size: 28px;
     color: #332C21;
     line-height: 45px;
-    margin-top: 4px;
-    position: relative; }
-    .specimen p::after {
-      content: 'Distinctive glyphs';
-      display: block;
-      position: absolute;
-      right: 0;
-      bottom: -32px;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 700;
-      font-size: 14px;
-      color: #D0CAC2;
-      line-height: 24px;
-      background-color: #FDFCF6;
-      padding-left: 4px; }
+    margin-top: 4px; }
     .specimen p em {
       color: #F1B908; }
   .specimen .fontName {
@@ -552,7 +553,10 @@ main {
 
 .styles {
   width: 420px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  position: relative; }
+  .styles img {
+    position: absolute; }
   .styles::before {
     content: 'Weights and Styles';
     margin-bottom: 10px; }
@@ -645,7 +649,10 @@ main {
 
 .legibility {
   width: 420px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  position: relative; }
+  .legibility img {
+    position: absolute; }
   .legibility::before {
     content: 'Legibility';
     margin-bottom: 10px; }

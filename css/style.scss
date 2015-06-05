@@ -410,31 +410,32 @@ main {
 }
 .specimen {
 	width: 570px;
-	// height: 163px;
+	height: 163px;
 	// border-bottom: dashed 1px $light;
 	border-top: dashed 1px $light;
 	float: right;
+	position: relative;
+
+	&::after {
+		content: 'Distinctive glyphs';
+		display: block;
+		position: absolute;
+		right: 0;
+		bottom: -9px;
+		font-family: $opensans;
+		font-weight: 700;
+		font-size: 14px;
+		color: $light;
+		line-height: 24px;
+		background-color: $white;
+		padding-left: 4px;
+	}
 	p {
 		font-family: Georgia;
 		font-size: 28px;
 		color: $dark;
 		line-height: 45px;
 		margin-top: 4px;
-		position: relative;
-		&::after {
-			content: 'Distinctive glyphs';
-			display: block;
-			position: absolute;
-			right: 0;
-			bottom: -32px;
-			font-family: $opensans;
-			font-weight: 700;
-			font-size: 14px;
-			color: $light;
-			line-height: 24px;
-			background-color: $white;
-			padding-left: 4px;
-		}
 		em {
 			color: $orange;
 		}
@@ -681,6 +682,10 @@ main {
 .styles {
 	width: 420px;
 	margin-right: 40px;
+	position: relative;
+	img {
+		position: absolute;
+	}
 	&::before { 
 		content: 'Weights and Styles';
 		margin-bottom: 10px;
@@ -811,6 +816,10 @@ main {
 .legibility {
 	width: 420px;
 	margin-right: 40px;
+	position: relative;
+	img {
+		position: absolute;
+	}
 	&::before { 
 		content: 'Legibility';
 		margin-bottom: 10px;
