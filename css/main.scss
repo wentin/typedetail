@@ -38,16 +38,6 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	float: left;
 	box-sizing: border-box;
 	position: relative;
-	&::after {
-		content: '';
-		display: block;
-		position: absolute;
-		right: -30px;
-		top: 137px;
-		width: 1px;
-		height: 600px;
-		border-right: dashed 1px $dark;
-	}
 	span {
 		color: $tint;
 		position: relative;
@@ -70,8 +60,19 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	box-sizing: border-box;
 	float: left;
 	font-family: $opensans;
+	position: relative;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: -30px;
+		top: 144px;
+		width: 1px;
+		bottom: 0;
+		border-right: dashed 1px $dark;
+	}
 	p:first-child {
-		margin-top: 267px;
+		margin-top: 202px;
 	}
 	p {
 		width: 450px;
@@ -94,9 +95,9 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		width: 450px;
   		counter-reset: code-number-counter;
   		color: $light;
-	    // -webkit-column-count: 3;
-	    // -moz-column-count: 3;
-	    // column-count: 3;
+	    // -webkit-column-count: 2;
+	    // -moz-column-count: 2;
+	    // column-count: 2;
 		li {
 			font-weight: 400;
 			font-size: 14px;

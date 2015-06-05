@@ -353,7 +353,9 @@ main {
       font-weight: 700;
       font-size: 14px;
       color: #D0CAC2;
-      line-height: 24px; }
+      line-height: 24px;
+      background-color: #FDFCF6;
+      padding-left: 4px; }
     .specimen p em {
       color: #F1B908; }
   .specimen .fontName {

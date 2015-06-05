@@ -21,15 +21,6 @@
   float: left;
   box-sizing: border-box;
   position: relative; }
-  .title::after {
-    content: '';
-    display: block;
-    position: absolute;
-    right: -30px;
-    top: 137px;
-    width: 1px;
-    height: 600px;
-    border-right: dashed 1px #332C21; }
   .title span {
     color: #EF431D;
     position: relative; }
@@ -49,9 +40,19 @@
   border-top: dashed 1px #D0CAC2;
   box-sizing: border-box;
   float: left;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  position: relative; }
+  .index::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -30px;
+    top: 144px;
+    width: 1px;
+    bottom: 0;
+    border-right: dashed 1px #332C21; }
   .index p:first-child {
-    margin-top: 267px; }
+    margin-top: 202px; }
   .index p {
     width: 450px;
     font-weight: 400;

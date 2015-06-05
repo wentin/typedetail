@@ -410,6 +410,8 @@ main {
 }
 .specimen {
 	width: 570px;
+	// height: 163px;
+	// border-bottom: dashed 1px $light;
 	border-top: dashed 1px $light;
 	float: right;
 	p {
@@ -430,6 +432,8 @@ main {
 			font-size: 14px;
 			color: $light;
 			line-height: 24px;
+			background-color: $white;
+			padding-left: 4px;
 		}
 		em {
 			color: $orange;

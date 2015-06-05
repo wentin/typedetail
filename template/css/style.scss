@@ -11,6 +11,92 @@ $playfair: 'Playfair Display', serif;
 $playfairsc: 'Playfair Display SC', serif;
 $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 
+@keyframes "heart" {
+ 0% {
+    -webkit-transform: scale(1.1);
+   	-moz-transform: scale(1.1);
+   	-o-transform: scale(1.1);
+   	-ms-transform: scale(1.1);
+   	transform: scale(1.1);
+   opacity: 1;
+ }
+ 50% {
+    -webkit-transform: scale(0.8);
+   	-moz-transform: scale(0.8);
+   	-o-transform: scale(0.8);
+   	-ms-transform: scale(0.8);
+   	transform: scale(0.8);
+   opacity: 0.6;
+ }
+ 100% {
+    -webkit-transform: scale(1);
+   	-moz-transform: scale(1);
+   	-o-transform: scale(1);
+   	-ms-transform: scale(1);
+   	transform: scale(1);
+   opacity: 1;
+ }
+
+}
+
+@-moz-keyframes heart {
+ 0% {
+   -moz-transform: scale(1.1);
+   transform: scale(1.1);
+   opacity: 1;
+ }
+ 50% {
+   -moz-transform: scale(0.8);
+   transform: scale(0.8);
+   opacity: 0.6;
+ }
+ 100% {
+   -moz-transform: scale(1);
+   transform: scale(1);
+   opacity: 1;
+ }
+
+}
+
+@-webkit-keyframes "heart" {
+ 0% {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+   opacity: 1;
+ }
+ 50% {
+   -webkit-transform: scale(0.8);
+   transform: scale(0.8);
+   opacity: 0.6;
+ }
+ 100% {
+   -webkit-transform: scale(1);
+   transform: scale(1);
+   opacity: 1;
+ }
+
+}
+
+@-ms-keyframes "heart" {
+ 0% {
+   -ms-transform: scale(1.1);
+   transform: scale(1.1);
+   opacity: 1;
+ }
+ 50% {
+   -ms-transform: scale(0.8);
+   transform: scale(0.8);
+   opacity: 0.6;
+ }
+ 100% {
+   -ms-transform: scale(1);
+   transform: scale(1);
+   opacity: 1;
+ }
+
+}
+
+
 body {
 	font-family: $opensans;
 	font-weight: normal;
@@ -162,6 +248,57 @@ a {
 	position: absolute;
 	right: 0;
 	top: 18px;
+	width: 470px;
+	text-align: right;
+	.vote {
+		font-family: $opensans;
+		text-align: center;
+		font-size: 14px;
+		color: $light;
+		line-height: 18px;
+		position: absolute;
+		top: -6px;
+		z-index: 99;
+		cursor: pointer;
+		transition: all 0.4s $easing;
+		i {
+			position: absolute;
+			left: 145px;
+			top: -2px;
+			width: 40px;
+			height: 40px;
+			opacity: 0;
+			transform: scale(0.1, 0.1);
+			transform-origin: center center;
+			transition: all 0.6s $easing;
+		}
+		i::after {
+			position: absolute;
+			display: block;
+			width: 40px;
+			height: 40px;
+			font-family: 'icomoon';
+			font-style: normal;
+			content: "\e60c";
+			color: $red;
+			font-size: 40px;
+			line-height: 40px;
+			transform-origin: center center;
+		}
+		&:hover {
+			color: $grey;
+		}
+		&:hover i {
+			transform: scale(1, 1);
+			opacity: 0.9;
+			&::after {
+				-webkit-animation: heart 1s linear 0.4s infinite both;
+				-moz-animation: heart 1s linear 0.4s infinite both;
+				-ms-animation: heart 1s linear 0.4s infinite both;
+				animation: heart 1s linear 0.4s infinite both;
+			}
+		}
+	}
 	a {
 		width: 24px;
 		margin-left: 6px;
@@ -180,7 +317,7 @@ a {
 	.newsletter {
 		&::before {
 			font-size: 26px;
-			content: "\e606";
+			content: "\e605";
 		}
 	}
 	.github {
@@ -281,6 +418,19 @@ main {
 		color: $dark;
 		line-height: 45px;
 		margin-top: 4px;
+		position: relative;
+		&::after {
+			content: 'Distinctive glyphs';
+			display: block;
+			position: absolute;
+			right: 0;
+			bottom: -32px;
+			font-family: $opensans;
+			font-weight: 700;
+			font-size: 14px;
+			color: $light;
+			line-height: 24px;
+		}
 		em {
 			color: $orange;
 		}
@@ -292,6 +442,7 @@ main {
 		font-size: 14px;
 		color: $light;
 		line-height: 24px;
+		display: none;
 	}
 }
 .annotation {
