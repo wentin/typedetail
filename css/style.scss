@@ -599,6 +599,7 @@ main {
 	.line {
 		position: absolute;
 		top: 0;
+		bottom: auto;
 		border-left: dashed 1px $dark;
 		font-family: $opensans;
 		font-size: 14px;
@@ -622,6 +623,21 @@ main {
 			-webkit-transform: rotate(80deg);
 			transform: rotate(80deg);
 		}
+	}
+	.line.bottom {
+		bottom: 0;
+		top: auto;
+		span {
+			position: absolute;
+			top: auto;
+			bottom: 0;
+		}
+		i {
+		  bottom: auto;
+		  top: 0;
+		  left: -1px;
+		}
+
 	}
 	.frame {
 		position: absolute;

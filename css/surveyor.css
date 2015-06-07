@@ -1,0 +1,33 @@
+.logo span {
+  color: #F1B908; }
+
+.share a:hover::before {
+  color: #F1B908; }
+.share .vote i::after {
+  color: #F1B908; }
+
+.name .links a:hover {
+  background: #F1B908; }
+
+.specimen p em {
+  color: #F1B908; }
+
+.annotation .type {
+  color: #F1B908; }
+
+.similar h1, .similar h2 {
+  color: #F1B908; }
+
+.specimen p {
+  font-family: "Surveyor Fine A", "Surveyor Fine B", serif; }
+
+.annotation {
+  font-family: "Surveyor Fine A", "Surveyor Fine B", serif; }
+
+.styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p, .styles div {
+  font-family: "Surveyor Fine A", "Surveyor Fine B", serif; }
+
+.legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+  font-family: "Surveyor Fine A", "Surveyor Fine B", serif; }
+
+/*# sourceMappingURL=surveyor.css.map */

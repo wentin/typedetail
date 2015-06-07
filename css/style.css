@@ -482,6 +482,7 @@ main {
   .annotation .line {
     position: absolute;
     top: 0;
+    bottom: auto;
     border-left: dashed 1px #332C21;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -504,6 +505,17 @@ main {
       transform-origin: left top;
       -webkit-transform: rotate(80deg);
       transform: rotate(80deg); }
+  .annotation .line.bottom {
+    bottom: 0;
+    top: auto; }
+    .annotation .line.bottom span {
+      position: absolute;
+      top: auto;
+      bottom: 0; }
+    .annotation .line.bottom i {
+      bottom: auto;
+      top: 0;
+      left: -1px; }
   .annotation .frame {
     position: absolute;
     top: 0;
