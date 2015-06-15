@@ -1,0 +1,33 @@
+.logo span {
+  color: #50C9CE; }
+
+.share a:hover::before {
+  color: #50C9CE; }
+.share .vote i::after {
+  color: #50C9CE; }
+
+.name .links a:hover {
+  background: #50C9CE; }
+
+.specimen p em {
+  color: #50C9CE; }
+
+.annotation .type {
+  color: #50C9CE; }
+
+.similar h1, .similar h2 {
+  color: #50C9CE; }
+
+.specimen p {
+  font-family: Merriweather, sans-serif; }
+
+.annotation {
+  font-family: Merriweather, sans-serif; }
+
+.styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p, .styles div {
+  font-family: Merriweather, sans-serif; }
+
+.legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+  font-family: Merriweather, sans-serif; }
+
+/*# sourceMappingURL=merriweather.css.map */
