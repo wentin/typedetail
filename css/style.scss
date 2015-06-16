@@ -608,6 +608,9 @@ main {
 		line-height: 18px;
 		width: 144px;
 		padding: 0 0 0 10px;
+		span {
+			width: 150px;
+		}
 		i {
 			width: 150px;
 			height: 0;
@@ -622,6 +625,17 @@ main {
 			transform-origin: left top;
 			-webkit-transform: rotate(80deg);
 			transform: rotate(80deg);
+		}
+	}
+	.line.left {
+		border-left: none;
+		border-right: dashed 1px $dark;
+		text-align: right;
+			padding: 0 10px 0 0;
+		i {
+			left: auto;
+			right: 0;
+			transform-origin: right top;
 		}
 	}
 	.line.bottom {
