@@ -41,7 +41,8 @@
   box-sizing: border-box;
   float: left;
   font-family: "Open Sans", sans-serif;
-  position: relative; }
+  position: relative;
+  counter-reset: code-number-counter; }
   .index::after {
     content: '';
     display: block;
@@ -68,8 +69,8 @@
     color: #EF431D; }
   .index ul {
     margin-top: 14px;
-    width: 450px;
-    counter-reset: code-number-counter;
+    width: 225px;
+    float: left;
     color: #D0CAC2; }
     .index ul li {
       font-weight: 400;

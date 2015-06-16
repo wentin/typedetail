@@ -61,6 +61,7 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	float: left;
 	font-family: $opensans;
 	position: relative;
+  	counter-reset: code-number-counter;
 	&::after {
 		content: '';
 		display: block;
@@ -92,12 +93,13 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	}
 	ul {
 		margin-top: 14px;
-		width: 450px;
-  		counter-reset: code-number-counter;
-  		color: $light;
+		// width: 450px;
 	    // -webkit-column-count: 2;
 	    // -moz-column-count: 2;
 	    // column-count: 2;
+		width: 225px;
+		float: left;
+  		color: $light;
 		li {
 			font-weight: 400;
 			font-size: 14px;
