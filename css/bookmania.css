@@ -1,0 +1,40 @@
+body.bookmania {
+  -moz-font-feature-settings: "kern=1", "liga=1", "clig=1", "hlig=1";
+  -moz-font-feature-settings: "kern" on, "liga" on, "clig" on, "hlig" on;
+  -webkit-font-feature-settings: "kern","liga","clig","hlig";
+  -ms-font-feature-settings: "kern","liga","clig","hlig";
+  font-feature-settings: "kern","liga","clig","hlig"; }
+
+.logo span {
+  color: #F1B908; }
+
+.share a:hover::before {
+  color: #F1B908; }
+.share .vote i::after {
+  color: #F1B908; }
+
+.name .links a:hover {
+  background: #F1B908; }
+
+.specimen p em {
+  color: #F1B908; }
+
+.annotation .type {
+  color: #F1B908; }
+
+.similar h1, .similar h2 {
+  color: #F1B908; }
+
+.specimen p {
+  font-family: "bookmania", sans-serif; }
+
+.annotation {
+  font-family: "bookmania", sans-serif; }
+
+.styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p, .styles div {
+  font-family: "bookmania", sans-serif; }
+
+.legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+  font-family: "bookmania", sans-serif; }
+
+/*# sourceMappingURL=bookmania.css.map */
