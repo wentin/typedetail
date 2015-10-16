@@ -216,7 +216,8 @@ a {
     top: -6px;
     z-index: 99;
     cursor: pointer;
-    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1);
+    display: none; }
     .share .vote i {
       position: absolute;
       left: 145px;

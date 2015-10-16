@@ -261,6 +261,7 @@ a {
 		z-index: 99;
 		cursor: pointer;
 		transition: all 0.4s $easing;
+		display: none;
 		i {
 			position: absolute;
 			left: 145px;
