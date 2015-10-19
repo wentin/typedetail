@@ -174,7 +174,6 @@ a {
 			display: block;
 			position: absolute;
 			top: 15px;
-			left: 20px;
 			width: 57px;
 			height: 1px;
 			background-color: $light;
@@ -185,11 +184,8 @@ a {
 			display: block;
 			position: absolute;
 			top: 10.5px;
-			left: 20px;
 			width: 8px;
 			height: 8px;
-			border-top: solid 1px $light;
-			border-left: solid 1px $light;
 			-webkit-transform: rotate(-45deg);
 			transform: rotate(-45deg);
 			transition: all 0.4s $easing;
@@ -199,33 +195,58 @@ a {
 			font-size: 10px;
 			line-height: 30px;
 			text-align: right;
-			float: right;
 			opacity: 0;
 			transition: all 0.4s $easing;
 		}
 		&:hover::before {
-			left: 0;
 			width: 0px;
 			background-color: $dark;
 		}
 		&:hover::after {
-			left: 0;
-			border-top: solid 1px $dark;
-			border-left: solid 1px $dark;
+			border-top-color: $dark;
+			border-left-color: $dark;
+			border-bottom-color: $dark;
+			border-right-color: $dark;
 		}
 		&:hover span {
 			opacity: 1;
 			transition-delay: 0.15s;
 		}
 	}
+	.prev {
+		&::before {
+			left: 20px;
+		}
+		&::after {
+			left: 20px;
+			border-top: solid 1px $light;
+			border-left: solid 1px $light;
+		}
+		&:hover::before,
+		&:hover::after {
+			left: 0;
+		}
+		span {
+			float: right;
+		}
+	}
 	.next {
 		right: 0px;
 		top: 15px;
-		-webkit-transform: rotate(180deg);
-		transform: rotate(180deg);
+		&::before {
+			right: 20px;
+		}
+		&::after {
+			right: 20px;
+			border-bottom: solid 1px $light;
+			border-right: solid 1px $light;
+		}
+		&:hover::before,
+		&:hover::after {
+			right: 0;
+		}
 		span {
-			-webkit-transform: rotate(180deg);
-			transform: rotate(180deg);	
+			float: left;
 		}
 	}
 	.number {
@@ -355,7 +376,7 @@ main {
 		right: 0;
 		top: 7px;
 		a {
-			background: $light;
+			background: $grey;
 			border-radius: 40px;
 			font-family: $opensans;
 			font-weight: 700;
@@ -365,6 +386,9 @@ main {
 			text-transform: uppercase;
 			padding: 1px 10px;
 			transition: all 0.4s $easing;
+		}
+		a:visited {
+			background: $light;
 		}
 		a:hover {
 			background: $orange;
@@ -464,6 +488,19 @@ main {
 		color: $orange;
 		line-height: 390px;
 		position: relative;
+	}
+	.note, .frame, .line {
+		span a {
+			color: $dark;
+			font-weight: 600;
+			transition: all 0.4s $easing;
+			&:hover {
+				color:  $red;
+			}
+			&:visited {
+				color: $grey;
+			}
+		}
 	}
 	.note {
 		position: absolute;

@@ -135,7 +135,6 @@ a {
       display: block;
       position: absolute;
       top: 15px;
-      left: 20px;
       width: 57px;
       height: 1px;
       background-color: #D0CAC2;
@@ -146,11 +145,8 @@ a {
       display: block;
       position: absolute;
       top: 10.5px;
-      left: 20px;
       width: 8px;
       height: 8px;
-      border-top: solid 1px #D0CAC2;
-      border-left: solid 1px #D0CAC2;
       -webkit-transform: rotate(-45deg);
       transform: rotate(-45deg);
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
@@ -160,31 +156,45 @@ a {
       font-size: 10px;
       line-height: 30px;
       text-align: right;
-      float: right;
       opacity: 0;
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .pagination .prev:hover::before,
     .pagination .next:hover::before {
-      left: 0;
       width: 0px;
       background-color: #332C21; }
     .pagination .prev:hover::after,
     .pagination .next:hover::after {
-      left: 0;
-      border-top: solid 1px #332C21;
-      border-left: solid 1px #332C21; }
+      border-top-color: #332C21;
+      border-left-color: #332C21;
+      border-bottom-color: #332C21;
+      border-right-color: #332C21; }
     .pagination .prev:hover span,
     .pagination .next:hover span {
       opacity: 1;
       transition-delay: 0.15s; }
+  .pagination .prev::before {
+    left: 20px; }
+  .pagination .prev::after {
+    left: 20px;
+    border-top: solid 1px #D0CAC2;
+    border-left: solid 1px #D0CAC2; }
+  .pagination .prev:hover::before, .pagination .prev:hover::after {
+    left: 0; }
+  .pagination .prev span {
+    float: right; }
   .pagination .next {
     right: 0px;
-    top: 15px;
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg); }
+    top: 15px; }
+    .pagination .next::before {
+      right: 20px; }
+    .pagination .next::after {
+      right: 20px;
+      border-bottom: solid 1px #D0CAC2;
+      border-right: solid 1px #D0CAC2; }
+    .pagination .next:hover::before, .pagination .next:hover::after {
+      right: 0; }
     .pagination .next span {
-      -webkit-transform: rotate(180deg);
-      transform: rotate(180deg); }
+      float: left; }
   .pagination .number {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
@@ -291,7 +301,7 @@ main {
     right: 0;
     top: 7px; }
     .name .links a {
-      background: #D0CAC2;
+      background: #6A6256;
       border-radius: 40px;
       font-family: "Open Sans", sans-serif;
       font-weight: 700;
@@ -301,6 +311,8 @@ main {
       text-transform: uppercase;
       padding: 1px 10px;
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .name .links a:visited {
+      background: #D0CAC2; }
     .name .links a:hover {
       background: #F1B908; }
   .name h1 {
@@ -382,6 +394,14 @@ main {
     color: #F1B908;
     line-height: 390px;
     position: relative; }
+  .annotation .note span a, .annotation .frame span a, .annotation .line span a {
+    color: #332C21;
+    font-weight: 600;
+    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .annotation .note span a:hover, .annotation .frame span a:hover, .annotation .line span a:hover {
+      color: #EF431D; }
+    .annotation .note span a:visited, .annotation .frame span a:visited, .annotation .line span a:visited {
+      color: #6A6256; }
   .annotation .note {
     position: absolute;
     top: 0;

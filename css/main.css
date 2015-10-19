@@ -67,6 +67,8 @@
     transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .index a:hover {
     color: #EF431D; }
+  .index a:visited {
+    color: #6A6256; }
   .index ul {
     margin-top: 14px;
     width: 225px;
