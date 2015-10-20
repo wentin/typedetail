@@ -33,38 +33,28 @@
       border-radius: 50%;
       border: dashed 1px #332c21; }
 
-.resources .left-side {
-  width: 600px;
-  padding-right: 30px;
-  box-sizing: border-box;
-  float: left; }
-.resources .right-side {
-  width: 600px;
-  padding-left: 30px;
-  box-sizing: border-box;
-  float: right;
-  border-left: dashed 1px #d0cac2; }
 .resources .section {
   float: left;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 15px; }
   .resources .section h1 {
     display: block;
     width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 28px;
-    color: #d0cac2;
+    color: #6a6256;
     line-height: 36px;
     padding-bottom: 6px;
     border-bottom: dashed 1px #d0cac2;
-    margin-bottom: 30px;
-    padding-top: 166px; }
+    margin-bottom: 30px; }
 .resources .card {
   width: 270px;
   margin-bottom: 30px;
   float: left;
-  cursor: pointer; }
-  .resources .card:nth-child(2n) {
-    margin-right: 29px; }
+  cursor: pointer;
+  margin-right: 40px; }
+  .resources .card:nth-child(4n+1) {
+    margin-right: 0; }
   .resources .card:hover img {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
@@ -102,9 +92,9 @@
   .resources .card img {
     display: block;
     width: 100%;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-    opacity: 0.4;
+    -webkit-filter: grayscale(0.92);
+    filter: grayscale(0.92);
+    opacity: 0.5;
     transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .resources .card .link {
     display: block;

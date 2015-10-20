@@ -53,33 +53,20 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	}
 }
 .resources {
-	.left-side {
-		width: 600px;
-		padding-right: 30px;
-		box-sizing: border-box;
-		float: left;
-	}
-	.right-side {
-		width: 600px;
-		padding-left: 30px;
-		box-sizing: border-box;
-		float: right;
-		border-left: dashed 1px $light;
-	}
 	.section {
 		float: left;
 		width: 100%;
+		margin-bottom: 15px;
 		h1 {
 		    display: block;
 		    width: 100%;
 		    font-family: "Open Sans", sans-serif;
 		    font-size: 28px;
-		    color: $light;
+		    color: $grey;
 		    line-height: 36px;
 		    padding-bottom: 6px;
 		    border-bottom: dashed 1px $light;
 		    margin-bottom: 30px;
-    		padding-top: 166px;
 		}
 	}
 	.card {
@@ -87,8 +74,9 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		margin-bottom: 30px;
 		float: left;
 		cursor: pointer;
-		&:nth-child(2n) {
-			margin-right: 29px;
+		margin-right: 40px;
+		&:nth-child(4n+1) {
+			margin-right: 0;
 		}
 		&:hover {
 			img {	
@@ -141,9 +129,9 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		img {
 			display: block;
 			width: 100%;
-			-webkit-filter: grayscale(1);
-			filter: grayscale(1);
-			opacity: 0.4;
+			-webkit-filter: grayscale(0.92);
+			filter: grayscale(0.92);
+			opacity: 0.5;
 			transition: all 0.4s $easing;
 		}
 		.link {
