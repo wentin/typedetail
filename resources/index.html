@@ -99,9 +99,9 @@
 	          <p>{{resource.description}}</p>
 	        </div>
 	    </div>
-	    <div class="Book section" ng-if="(resources | filter: { category: 'Book' } | filter: searchText).length > 0">
+	    <div class="OnlineBook section" ng-if="(resources | filter: { category: 'Online Book' } | filter: searchText).length > 0">
 	        <h1>
-	          Books
+	          Online Books
 	        </h1>
 	        <div class="card" 
 	          ng-repeat="resource in resources | filter: { category: 'Book' } | filter: searchText">
