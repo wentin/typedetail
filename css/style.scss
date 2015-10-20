@@ -386,6 +386,9 @@ main {
 			text-transform: uppercase;
 			padding: 1px 10px;
 			transition: all 0.4s $easing;
+			float: right;
+			display: block;
+			margin-left: 6px;
 		}
 		a:visited {
 			background: $light;

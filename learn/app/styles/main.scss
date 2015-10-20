@@ -1,0 +1,169 @@
+$tint: #EF431D;
+$dark: #332C21;
+$grey: #6A6256;
+$light: #D0CAC2;
+$white: #FDFCF6;
+$opensans: 'Open Sans', sans-serif;
+$playfair: 'Playfair Display', serif;
+$playfairsc: 'Playfair Display SC', serif;
+$easing: cubic-bezier(0.18, 0.57, 0.51, 1);
+
+.logo {
+	span {
+		color: $tint;
+	}
+}
+.share{
+	a:hover {
+		&::before {
+			color: $tint;
+		}
+	}	
+	.vote i::after {
+		color: $tint;
+	}
+}
+.title {
+	width: 100%;
+	border-top: dashed 1px $light;
+	font-family: $playfairsc;
+	font-size: 80px;
+	font-weight: 900;
+	font-style: italic;
+	color: $dark;
+	line-height: 120px;
+	text-align: center;
+	padding: 50px 0 50px 0;
+	box-sizing: border-box;
+	position: relative;
+	span {
+		color: $tint;
+		position: relative;
+		&::before {
+			content: '';
+			display: block;
+			position: absolute;
+			left: -30px;
+			top: -7px;
+			width: 124px;
+			height: 124px;
+			border-radius: 50%;
+			border: dashed 1px $dark;
+		}
+	}
+}
+.resources {
+	.left-side {
+		width: 600px;
+		padding-right: 30px;
+		box-sizing: border-box;
+		float: left;
+		border-right: dashed 1px $light;
+	}
+	.right-side {
+		width: 600px;
+		padding-left: 30px;
+		box-sizing: border-box;
+		float: right;
+	}
+	.section {
+		float: left;
+		width: 100%;
+		h1 {
+		    display: block;
+		    width: 100%;
+		    font-family: "Open Sans", sans-serif;
+		    font-size: 28px;
+		    color: $light;
+		    line-height: 36px;
+		    padding-bottom: 6px;
+		    border-bottom: dashed 1px $light;
+		    margin-bottom: 30px;
+		}
+	}
+	.card {
+		width: 270px;
+		margin-bottom: 30px;
+		float: left;
+		cursor: pointer;
+		&:nth-child(2n) {
+			margin-right: 29px;
+		}
+		&:hover {
+			img {	
+				-webkit-filter: grayscale(0.0);
+				filter: grayscale(0.0);
+				opacity: 1;
+			}
+			.link {
+				color: $tint;
+			}
+			.author {
+				a {
+					&::before {
+						width: 100%;
+					}
+				}
+				a:hover {
+					color: $tint;
+					&::before {
+						border-top: solid 1px $tint;
+					}
+				}
+			}
+		}
+		.author {
+			height: 25px;
+			span, a {
+				font-family: $playfairsc;
+				font-weight: 400;
+				font-style: normal;
+				color: $dark;
+				letter-spacing: 1px;
+				font-size: 10px;
+			    line-height: 25px;
+				position: relative;
+			    display: inline-block;
+				transition: all 0.4s $easing;
+				&::before {
+					content: '';
+					display: block;
+					width: 30px;
+					position: absolute;
+					left: 0;
+					top: 0;
+					border-top: solid 1px $light;
+					transition: all 0.4s $easing;
+				}
+			}
+		}
+		img {
+			display: block;
+			width: 100%;
+			-webkit-filter: grayscale(1);
+			filter: grayscale(1);
+			opacity: 0.4;
+			transition: all 0.4s $easing;
+		}
+		.link {
+			display: block;
+			font-family: $opensans;
+			font-weight: 700;
+			font-size: 16px;
+			line-height: 20px;
+			color: $dark;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			transition: color 0.4s $easing;
+		}
+		p {
+			font-family: $opensans;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 18px;
+			color: $grey;
+		    height: 54px;
+		    overflow: hidden;
+		}
+	}
+}

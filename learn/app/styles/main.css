@@ -1,0 +1,125 @@
+.logo span {
+  color: #ef431d; }
+
+.share a:hover::before {
+  color: #ef431d; }
+.share .vote i::after {
+  color: #ef431d; }
+
+.title {
+  width: 100%;
+  border-top: dashed 1px #d0cac2;
+  font-family: "Playfair Display SC", serif;
+  font-size: 80px;
+  font-weight: 900;
+  font-style: italic;
+  color: #332c21;
+  line-height: 120px;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  box-sizing: border-box;
+  position: relative; }
+  .title span {
+    color: #ef431d;
+    position: relative; }
+    .title span::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: -30px;
+      top: -7px;
+      width: 124px;
+      height: 124px;
+      border-radius: 50%;
+      border: dashed 1px #332c21; }
+
+.resources .left-side {
+  width: 600px;
+  padding-right: 30px;
+  box-sizing: border-box;
+  float: left;
+  border-right: dashed 1px #d0cac2; }
+.resources .right-side {
+  width: 600px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  float: right; }
+.resources .section {
+  float: left;
+  width: 100%; }
+  .resources .section h1 {
+    display: block;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    color: #d0cac2;
+    line-height: 36px;
+    padding-bottom: 6px;
+    border-bottom: dashed 1px #d0cac2;
+    margin-bottom: 30px; }
+.resources .card {
+  width: 270px;
+  margin-bottom: 30px;
+  float: left;
+  cursor: pointer; }
+  .resources .card:nth-child(2n) {
+    margin-right: 29px; }
+  .resources .card:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    opacity: 1; }
+  .resources .card:hover .link {
+    color: #ef431d; }
+  .resources .card:hover .author a::before {
+    width: 100%; }
+  .resources .card:hover .author a:hover {
+    color: #ef431d; }
+    .resources .card:hover .author a:hover::before {
+      border-top: solid 1px #ef431d; }
+  .resources .card .author {
+    height: 25px; }
+    .resources .card .author span, .resources .card .author a {
+      font-family: "Playfair Display SC", serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #332c21;
+      letter-spacing: 1px;
+      font-size: 10px;
+      line-height: 25px;
+      position: relative;
+      display: inline-block;
+      transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+      .resources .card .author span::before, .resources .card .author a::before {
+        content: '';
+        display: block;
+        width: 30px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-top: solid 1px #d0cac2;
+        transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+  .resources .card img {
+    display: block;
+    width: 100%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: 0.4;
+    transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+  .resources .card .link {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #332c21;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: color 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+  .resources .card p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6a6256;
+    height: 54px;
+    overflow: hidden; }

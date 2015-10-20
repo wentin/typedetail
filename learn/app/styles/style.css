@@ -7,6 +7,7 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 1; }
+
   50% {
     -webkit-transform: scale(0.8);
     -moz-transform: scale(0.8);
@@ -14,6 +15,7 @@
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     opacity: 0.6; }
+
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
@@ -26,10 +28,12 @@
     -moz-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 1; }
+
   50% {
     -moz-transform: scale(0.8);
     transform: scale(0.8);
     opacity: 0.6; }
+
   100% {
     -moz-transform: scale(1);
     transform: scale(1);
@@ -39,10 +43,12 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 1; }
+
   50% {
     -webkit-transform: scale(0.8);
     transform: scale(0.8);
     opacity: 0.6; }
+
   100% {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -52,10 +58,12 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     opacity: 1; }
+
   50% {
     -ms-transform: scale(0.8);
     transform: scale(0.8);
     opacity: 0.6; }
+
   100% {
     -ms-transform: scale(1);
     transform: scale(1);
@@ -63,7 +71,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
-  background-color: #FDFCF6;
+  background-color: #fdfcf6;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -88,7 +96,7 @@ a {
 .note {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  color: #6A6256;
+  color: #6a6256;
   font-size: 14px;
   line-height: 30px; }
 
@@ -97,13 +105,13 @@ a {
   font-weight: 900;
   font-style: italic;
   font-size: 24px;
-  color: #332C21;
+  color: #332c21;
   line-height: 60px;
   position: absolute;
   left: 0;
   padding-left: 11px; }
   .logo span {
-    color: #F1B908; }
+    color: #f1b908; }
   .logo::before {
     content: "";
     display: block;
@@ -113,7 +121,7 @@ a {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    border: dashed 1px #332C21;
+    border: dashed 1px #332c21;
     transition: width 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .logo:hover::before {
     width: 185px; }
@@ -137,7 +145,7 @@ a {
       top: 15px;
       width: 57px;
       height: 1px;
-      background-color: #D0CAC2;
+      background-color: #d0cac2;
       transition: all 0.4s ease; }
     .pagination .prev::after,
     .pagination .next::after {
@@ -152,7 +160,7 @@ a {
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .pagination .prev span,
     .pagination .next span {
-      color: #332C21;
+      color: #332c21;
       font-size: 10px;
       line-height: 30px;
       text-align: right;
@@ -161,13 +169,13 @@ a {
     .pagination .prev:hover::before,
     .pagination .next:hover::before {
       width: 0px;
-      background-color: #332C21; }
+      background-color: #332c21; }
     .pagination .prev:hover::after,
     .pagination .next:hover::after {
-      border-top-color: #332C21;
-      border-left-color: #332C21;
-      border-bottom-color: #332C21;
-      border-right-color: #332C21; }
+      border-top-color: #332c21;
+      border-left-color: #332c21;
+      border-bottom-color: #332c21;
+      border-right-color: #332c21; }
     .pagination .prev:hover span,
     .pagination .next:hover span {
       opacity: 1;
@@ -176,8 +184,8 @@ a {
     left: 20px; }
   .pagination .prev::after {
     left: 20px;
-    border-top: solid 1px #D0CAC2;
-    border-left: solid 1px #D0CAC2; }
+    border-top: solid 1px #d0cac2;
+    border-left: solid 1px #d0cac2; }
   .pagination .prev:hover::before, .pagination .prev:hover::after {
     left: 0; }
   .pagination .prev span {
@@ -189,8 +197,8 @@ a {
       right: 20px; }
     .pagination .next::after {
       right: 20px;
-      border-bottom: solid 1px #D0CAC2;
-      border-right: solid 1px #D0CAC2; }
+      border-bottom: solid 1px #d0cac2;
+      border-right: solid 1px #d0cac2; }
     .pagination .next:hover::before, .pagination .next:hover::after {
       right: 0; }
     .pagination .next span {
@@ -206,8 +214,8 @@ a {
     margin: 0 auto;
     display: block;
     border-radius: 50%;
-    background-color: #332C21;
-    color: #FDFCF6;
+    background-color: #332c21;
+    color: #fdfcf6;
     cursor: default; }
 
 .share {
@@ -220,7 +228,7 @@ a {
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 14px;
-    color: #D0CAC2;
+    color: #d0cac2;
     line-height: 18px;
     position: absolute;
     top: -6px;
@@ -246,12 +254,12 @@ a {
       font-family: 'icomoon';
       font-style: normal;
       content: "\e60c";
-      color: #EF431D;
+      color: #ef431d;
       font-size: 40px;
       line-height: 40px;
       transform-origin: center center; }
     .share .vote:hover {
-      color: #6A6256; }
+      color: #6a6256; }
     .share .vote:hover i {
       transform: scale(1, 1);
       opacity: 0.9; }
@@ -266,10 +274,10 @@ a {
     .share a::before {
       font-size: 24px;
       font-family: 'icomoon';
-      color: #D0CAC2;
+      color: #d0cac2;
       transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .share a:hover::before {
-    color: #F1B908; }
+    color: #f1b908; }
   .share .newsletter::before {
     font-size: 26px;
     content: "\e605"; }
@@ -292,8 +300,8 @@ main {
 
 .name {
   width: 570px;
-  border-top: dashed 1px #D0CAC2;
-  border-bottom: dashed 1px #D0CAC2;
+  border-top: dashed 1px #d0cac2;
+  border-bottom: dashed 1px #d0cac2;
   float: left;
   position: relative; }
   .name .links {
@@ -301,12 +309,12 @@ main {
     right: 0;
     top: 7px; }
     .name .links a {
-      background: #6A6256;
+      background: #6a6256;
       border-radius: 40px;
       font-family: "Open Sans", sans-serif;
       font-weight: 700;
       font-size: 11px;
-      color: #FDFCF6;
+      color: #fdfcf6;
       line-height: 15px;
       text-transform: uppercase;
       padding: 1px 10px;
@@ -315,14 +323,14 @@ main {
       display: block;
       margin-left: 6px; }
     .name .links a:visited {
-      background: #D0CAC2; }
+      background: #d0cac2; }
     .name .links a:hover {
-      background: #F1B908; }
+      background: #f1b908; }
   .name h1 {
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-size: 60px;
-    color: #332C21;
+    color: #332c21;
     line-height: 66px;
     margin-top: 24px; }
   .name p {
@@ -331,7 +339,7 @@ main {
     font-size: 14px;
     margin-top: 12px;
     margin-bottom: 13px;
-    color: #332C21;
+    color: #332c21;
     line-height: 24px; }
     .name p span {
       margin-right: 12px; }
@@ -351,7 +359,7 @@ main {
 .specimen {
   width: 570px;
   height: 163px;
-  border-top: dashed 1px #D0CAC2;
+  border-top: dashed 1px #d0cac2;
   float: right;
   position: relative; }
   .specimen::after {
@@ -363,24 +371,24 @@ main {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 14px;
-    color: #D0CAC2;
+    color: #d0cac2;
     line-height: 24px;
-    background-color: #FDFCF6;
+    background-color: #fdfcf6;
     padding-left: 4px; }
   .specimen p {
     font-family: Georgia;
     font-size: 28px;
-    color: #332C21;
+    color: #332c21;
     line-height: 45px;
     margin-top: 4px; }
     .specimen p em {
-      color: #F1B908; }
+      color: #f1b908; }
   .specimen .fontName {
     margin-top: 8px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-size: 14px;
-    color: #D0CAC2;
+    color: #d0cac2;
     line-height: 24px;
     display: none; }
 
@@ -394,25 +402,25 @@ main {
     height: 390px;
     text-align: center;
     font-size: 200px;
-    color: #F1B908;
+    color: #f1b908;
     line-height: 390px;
     position: relative; }
   .annotation .note span a, .annotation .frame span a, .annotation .line span a {
-    color: #332C21;
+    color: #332c21;
     font-weight: 600;
     transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .annotation .note span a:hover, .annotation .frame span a:hover, .annotation .line span a:hover {
-      color: #EF431D; }
+      color: #ef431d; }
     .annotation .note span a:visited, .annotation .frame span a:visited, .annotation .line span a:visited {
-      color: #6A6256; }
+      color: #6a6256; }
   .annotation .note {
     position: absolute;
     top: 0;
-    border-left: dashed 1px #332C21;
+    border-left: dashed 1px #332c21;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: left;
-    color: #332C21;
+    color: #332c21;
     line-height: 18px;
     width: 150px;
     padding: 0 0 0 10px; }
@@ -420,7 +428,7 @@ main {
       content: '';
       width: 40px;
       height: 40px;
-      border: dashed 1px #332C21;
+      border: dashed 1px #332c21;
       border-radius: 20px;
       display: block;
       position: absolute;
@@ -474,7 +482,7 @@ main {
     right: -41px; }
   .annotation .note.left {
     border-left: none;
-    border-right: dashed 1px #332C21;
+    border-right: dashed 1px #332c21;
     text-align: right;
     padding: 0 10px 0 0; }
     .annotation .note.left::after {
@@ -507,11 +515,11 @@ main {
     position: absolute;
     top: 0;
     bottom: auto;
-    border-left: dashed 1px #332C21;
+    border-left: dashed 1px #332c21;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: left;
-    color: #332C21;
+    color: #332c21;
     line-height: 18px;
     width: 144px;
     padding: 0 0 0 10px; }
@@ -520,7 +528,7 @@ main {
     .annotation .line i {
       width: 150px;
       height: 0;
-      border-top: dashed 1px #332C21;
+      border-top: dashed 1px #332c21;
       display: block;
       position: absolute;
       top: auto;
@@ -533,7 +541,7 @@ main {
       transform: rotate(80deg); }
   .annotation .line.left {
     border-left: none;
-    border-right: dashed 1px #332C21;
+    border-right: dashed 1px #332c21;
     text-align: right;
     padding: 0 10px 0 0; }
     .annotation .line.left i {
@@ -555,11 +563,11 @@ main {
     position: absolute;
     top: 0;
     bottom: auto;
-    border-left: dashed 1px #332C21;
+    border-left: dashed 1px #332c21;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: left;
-    color: #332C21;
+    color: #332c21;
     line-height: 18px;
     width: 150px;
     padding: 0 0 0 10px; }
@@ -571,7 +579,7 @@ main {
     .annotation .frame i {
       display: block;
       position: absolute;
-      border-top: dashed 1px #332C21;
+      border-top: dashed 1px #332c21;
       width: 160px;
       left: -80px;
       right: auto;
@@ -579,7 +587,7 @@ main {
       top: auto; }
   .annotation .frame.left {
     border-left: none;
-    border-right: dashed 1px #332C21;
+    border-right: dashed 1px #332c21;
     text-align: right;
     padding: 0 10px 0 0;
     text-align: right; }
@@ -713,7 +721,7 @@ main {
     .legibility h1::after, .legibility h2::after, .legibility h3::after, .legibility h4::after, .legibility h5::after, .legibility h6::after {
       font-weight: 700;
       line-height: 30px;
-      color: #D0CAC2;
+      color: #d0cac2;
       position: absolute;
       right: 0;
       top: 0;
@@ -751,7 +759,7 @@ main {
   .similar h1, .similar h2 {
     font-size: 48px;
     font-weight: 400;
-    color: #F1B908;
+    color: #f1b908;
     line-height: 54px;
     position: relative;
     padding: 16px 0; }
@@ -759,7 +767,7 @@ main {
       font-family: "Open Sans", sans-serif;
       font-weight: 700;
       font-size: 14px;
-      color: #D0CAC2;
+      color: #d0cac2;
       line-height: 16px;
       position: absolute;
       left: 0;
@@ -774,9 +782,7 @@ main {
     display: block;
     font-family: "Open Sans", sans-serif;
     font-size: 28px;
-    color: #D0CAC2;
+    color: #d0cac2;
     line-height: 36px;
     padding-bottom: 6px;
-    border-bottom: dashed 1px #D0CAC2; }
-
-/*# sourceMappingURL=style.css.map */
+    border-bottom: dashed 1px #d0cac2; }
