@@ -32,7 +32,10 @@
   {
     "title": "Designing Obsidian",
     "url": "https://vimeo.com/124062807",
-    "owner": "Andy Clymer",
+    "owner": {
+      "name": "Andy Clymer",
+      "link": "http://andyclymer.com/"
+    },
     "screenshot": "designingObsidian.png",
     "offsiteScreenshot": "",
     "description": "Designers of type and lettering make use of custom tools to draw and manufacture their product, this is as true today as it was in the time of punchcutting and steelplate engraving. After the design of the Surveyor family of typefaces came to a close, an exploration was made into finding an approach where custom tools could be used to help prototype the kinds of highly intricate designs that may have been too complex to otherwise consider putting into development. This process led to the design of Obsidian, a typeface that is elaborately shaded in a style that makes reference to the same nineteenth century tradition of engraved lettering as Surveyor is rooted in. Andy Clymer, a senior designer at Hoefler & Co. and instructor in the Type@Cooper program, will share a look at the design process, the custom tools involved, and some of the unexpected challenges and discoveries found while designing Obsidian.",
@@ -47,7 +50,10 @@
   {
     "title": "Grab the reins and fucking do it",
     "url": "https://vimeo.com/44045435",
-    "owner": "Jessica Hische",
+    "owner": {
+      "name": "Jessica Hische",
+      "link": "http://jessicahische.is/"
+    },
     "screenshot": "jessicaHische.png",
     "offsiteScreenshot": "",
     "description": "Jessica seduced a packed house with her enthusiasm and colourful language, sharing personal perspectives on the importance of typography as an example of the intersection of art and technology. Commenting on the stupidity of the question “What is your favourite font?” Hische encouraged attendees to stare closely at type, to learn how to select and use type well to express meaning, and most importantly, how to actually use the hidden technology that goes into type design and production. She passionately appealed to the audience to advocate for the value of type design, fearing the alternative being a decline in awesome type. Focussing on issue of technology, Hische explained that even as “just a letterer” she learned how to code for the web and learn new type design applications. In her opinion, learning tech is not only fun, but designers are lazy if they don't. In the audience was Hische's friend Jon Tan, designer and co-founder of Analog, Mapalong and Fontdeck, whom she dragged on stage to engage in a casual conversation about the art and tech behind typography, as well as the value of creativity and hard work it takes to produce something like a font that many take for granted.",
@@ -90,7 +96,7 @@
     "field3": ""
   },
   {
-    "title": "typecast",
+    "title": "Typecast",
     "url": "http://typecast.com/",
     "owner": "Monotype",
     "screenshot": "typecast.png",
