@@ -58,13 +58,13 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		padding-right: 30px;
 		box-sizing: border-box;
 		float: left;
-		border-right: dashed 1px $light;
 	}
 	.right-side {
 		width: 600px;
 		padding-left: 30px;
 		box-sizing: border-box;
 		float: right;
+		border-left: dashed 1px $light;
 	}
 	.section {
 		float: left;

@@ -37,13 +37,13 @@
   width: 600px;
   padding-right: 30px;
   box-sizing: border-box;
-  float: left;
-  border-right: dashed 1px #d0cac2; }
+  float: left; }
 .resources .right-side {
   width: 600px;
   padding-left: 30px;
   box-sizing: border-box;
-  float: right; }
+  float: right;
+  border-left: dashed 1px #d0cac2; }
 .resources .section {
   float: left;
   width: 100%; }
