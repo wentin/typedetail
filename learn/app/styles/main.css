@@ -56,7 +56,8 @@
     line-height: 36px;
     padding-bottom: 6px;
     border-bottom: dashed 1px #d0cac2;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    padding-top: 166px; }
 .resources .card {
   width: 270px;
   margin-bottom: 30px;

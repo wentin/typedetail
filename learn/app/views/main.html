@@ -3,11 +3,11 @@
     <span>T</span>ype Detail
   </a>
   <div class="pagination">
-    <a href="index.html" class="prev">
+    <a href="/index.html" class="prev">
       <span>or press left</span>
     </a>
     <span class="number">ii</span>
-    <a href="georgia.html" class="next">
+    <a href="/georgia.html" class="next">
       <span>or press right</span>
     </a>
   </div>
@@ -31,7 +31,7 @@
     <div class="left-side">
       <div class="Websites section" 
         ng-if="(resources | filter: { category: 'Website' } | filter: searchText).length > 0">
-        <h1>
+        <h1 style="padding-top: 0;">
           Websites
         </h1>
         <div class="card" 
@@ -133,7 +133,7 @@
     <div class="right-side">
       <div class="Tool section"
         ng-if="(resources | filter: { category: 'Tool' } | filter: searchText).length > 0">
-        <h1>
+        <h1 style="padding-top: 0;">
           Tool
         </h1>
         <div class="card" 
