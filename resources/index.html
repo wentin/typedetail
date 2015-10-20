@@ -63,7 +63,7 @@
 	    </div>
 	    <div class="Article section" ng-if="(resources | filter: { category: 'Article' } | filter: searchText).length > 0">
 	        <h1>
-	          Article
+	          Articles
 	        </h1>
 	        <div class="card" 
 	          ng-repeat="resource in resources | filter: { category: 'Article' } | filter: searchText">
@@ -82,7 +82,7 @@
 	    </div>
 	    <div class="Blog section" ng-if="(resources | filter: { category: 'Blog' } | filter: searchText).length > 0">
 	        <h1>
-	          Blog
+	          Blogs
 	        </h1>
 	        <div class="card" 
 	          ng-repeat="resource in resources | filter: { category: 'Blog' } | filter: searchText">
@@ -101,7 +101,7 @@
 	    </div>
 	    <div class="Book section" ng-if="(resources | filter: { category: 'Book' } | filter: searchText).length > 0">
 	        <h1>
-	          Book
+	          Books
 	        </h1>
 	        <div class="card" 
 	          ng-repeat="resource in resources | filter: { category: 'Book' } | filter: searchText">
@@ -120,8 +120,8 @@
 	    </div>
 		<div class="Talk section" ng-if="(resources | filter: { category: 'Talk' } | filter: searchText).length > 0">
 		    <h1>
-			          Talk
-			        </h1>
+	          Talks
+	        </h1>
 		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Talk' } | filter: searchText">
 		        <div ng-if="!resource.owner" class="author">
 		        </div>
@@ -138,8 +138,8 @@
 		</div>
 		<div class="Tool section" ng-if="(resources | filter: { category: 'Tool' } | filter: searchText).length > 0">
 		    <h1 style="padding-top: 0;">
-			          Tool
-			        </h1>
+	          Tools
+	        </h1>
 		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Tool' } | filter: searchText">
 		        <div ng-if="!resource.owner" class="author">
 		        </div>
@@ -156,8 +156,8 @@
 		</div>
 		<div class="Project section" ng-if="(resources | filter: { category: 'Project' } | filter: searchText).length > 0">
 		    <h1>
-			          Project
-			        </h1>
+	          Projects
+	        </h1>
 		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Project' } | filter: searchText">
 		        <div ng-if="!resource.owner" class="author">
 		        </div>
@@ -174,8 +174,8 @@
 		</div>
 		<div class="Event section" ng-if="(resources | filter: { category: 'Event' } | filter: searchText).length > 0">
 		    <h1>
-			          Event
-			        </h1>
+	          Events
+	        </h1>
 		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Event' } | filter: searchText">
 		        <div ng-if="!resource.owner" class="author">
 		        </div>
@@ -192,8 +192,8 @@
 		</div>
 		<div class="Foundry section" ng-if="(resources | filter: { category: 'Foundry' } | filter: searchText).length > 0">
 		    <h1>
-			          Foundry
-			        </h1>
+	          Foundries
+	        </h1>
 		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Foundry' } | filter: searchText">
 		        <div ng-if="!resource.owner" class="author">
 		        </div>
