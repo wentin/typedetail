@@ -1,10 +1,10 @@
 .logo span {
-  color: #ef431d; }
+  color: #50c9ce; }
 
 .share a:hover::before {
-  color: #ef431d; }
+  color: #50c9ce; }
 .share .vote i::after {
-  color: #ef431d; }
+  color: #50c9ce; }
 
 .title {
   width: 100%;
@@ -15,12 +15,25 @@
   font-style: italic;
   color: #332c21;
   line-height: 120px;
-  text-align: center;
-  padding: 50px 0 50px 0;
+  text-align: left;
+  padding: 50px 0 50px 30px;
   box-sizing: border-box;
   position: relative; }
+  .title input.search {
+    float: right;
+    background: transparent;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    width: 320px;
+    border-bottom: solid 1px #6a6256;
+    padding: 10px 0;
+    margin-top: 50px;
+    outline: none; }
   .title span {
-    color: #ef431d;
+    color: #50c9ce;
     position: relative; }
     .title span::before {
       content: '';
@@ -51,7 +64,6 @@
   width: 270px;
   margin-bottom: 30px;
   float: left;
-  cursor: pointer;
   margin-right: 40px; }
   .resources .card:nth-child(4n+1) {
     margin-right: 0; }
@@ -59,14 +71,10 @@
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
     opacity: 1; }
-  .resources .card:hover .link {
-    color: #ef431d; }
   .resources .card:hover .author a::before {
     width: 100%; }
   .resources .card:hover .author a:hover {
-    color: #ef431d; }
-    .resources .card:hover .author a:hover::before {
-      border-top: solid 1px #ef431d; }
+    color: #50c9ce; }
   .resources .card .author {
     height: 25px; }
     .resources .card .author span, .resources .card .author a {
@@ -106,6 +114,8 @@
     margin-top: 5px;
     margin-bottom: 5px;
     transition: color 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
+    .resources .card .link:hover {
+      color: #50c9ce; }
   .resources .card p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;

@@ -94,6 +94,17 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	a:visited {
 		color: $grey;
 	}
+	.roman-num {
+		li {
+			counter-increment: index-number-counter;
+			&::before {
+				content: counter(index-number-counter, lower-roman);
+			    padding-right: 4px;
+			    box-sizing: border-box;
+			}
+		}
+
+	}
 	ul {
 		margin-top: 14px;
 		// width: 450px;

@@ -1,4 +1,4 @@
-$tint: #EF431D;
+$tint: #50C9CE;
 $dark: #332C21;
 $grey: #6A6256;
 $light: #D0CAC2;
@@ -32,10 +32,24 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	font-style: italic;
 	color: $dark;
 	line-height: 120px;
-	text-align: center;
-	padding: 50px 0 50px 0;
+	text-align: left;
+	padding: 50px 0 50px 30px;
 	box-sizing: border-box;
 	position: relative;
+	input.search {
+		float: right;
+		background: transparent;
+		border: 0;
+		font-family: $opensans;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.2px;
+		width: 320px;
+		border-bottom: solid 1px $grey;
+		padding: 10px 0;
+		margin-top: 50px;
+  		outline: none;
+	}
 	span {
 		color: $tint;
 		position: relative;
@@ -73,7 +87,7 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		width: 270px;
 		margin-bottom: 30px;
 		float: left;
-		cursor: pointer;
+		// cursor: pointer;
 		margin-right: 40px;
 		&:nth-child(4n+1) {
 			margin-right: 0;
@@ -84,9 +98,6 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 				filter: grayscale(0.0);
 				opacity: 1;
 			}
-			.link {
-				color: $tint;
-			}
 			.author {
 				a {
 					&::before {
@@ -95,9 +106,6 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 				}
 				a:hover {
 					color: $tint;
-					&::before {
-						border-top: solid 1px $tint;
-					}
 				}
 			}
 		}
@@ -144,6 +152,9 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 			margin-top: 5px;
 			margin-bottom: 5px;
 			transition: color 0.4s $easing;
+			&:hover {
+				color: $tint;
+			}
 		}
 		p {
 			font-family: $opensans;
