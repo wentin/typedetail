@@ -1,0 +1,31 @@
+.logo span {
+  color: #ef431d; }
+
+.share a:hover::before {
+  color: #ef431d; }
+.share .vote i::after {
+  color: #ef431d; }
+
+.name .links a:hover {
+  background: #ef431d; }
+
+.specimen p em {
+  color: #ef431d; }
+
+.annotation .type {
+  color: #ef431d; }
+
+.similar h1, .similar h2 {
+  color: #ef431d; }
+
+.specimen p {
+  font-family: "Moriston", sans-serif; }
+
+.annotation {
+  font-family: "Moriston", sans-serif; }
+
+.styles h1, .styles h2, .styles h3, .styles h4, .styles h5, .styles h6, .styles p, .styles div {
+  font-family: "Moriston", sans-serif; }
+
+.legibility h1, .legibility h2, .legibility h3, .legibility h4, .legibility h5, .legibility h6 {
+  font-family: "Moriston", sans-serif; }

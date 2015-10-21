@@ -46,8 +46,8 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		letter-spacing: 0.2px;
 		width: 320px;
 		border-bottom: solid 1px $grey;
-		padding: 10px 0;
-		margin-top: 50px;
+		padding: 5px 0;
+		margin-top: 60px;
   		outline: none;
 	}
 	span {
@@ -100,6 +100,7 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 			}
 			.author {
 				a {
+					color: $dark;
 					&::before {
 						width: 100%;
 					}
@@ -112,13 +113,13 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		.author {
 			height: 25px;
 			span, a {
-				font-family: $playfairsc;
+				font-family: $opensans;
 				font-weight: 400;
 				font-style: normal;
-				color: $dark;
-				letter-spacing: 1px;
+				letter-spacing: 0.3px;
 				font-size: 12px;
 			    line-height: 25px;
+				color: $grey;
 				position: relative;
 			    display: inline-block;
 				transition: all 0.4s $easing;
