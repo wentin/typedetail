@@ -1,19 +1,19 @@
 .logo span {
-  color: #50C9CE; }
+  color: #50c9ce; }
 
 .share a:hover::before {
-  color: #50C9CE; }
+  color: #50c9ce; }
 .share .vote i::after {
-  color: #50C9CE; }
+  color: #50c9ce; }
 
 .title {
   width: 100%;
-  border-top: dashed 1px #D0CAC2;
+  border-top: dashed 1px #d0cac2;
   font-family: "Playfair Display SC", serif;
   font-size: 80px;
   font-weight: 900;
   font-style: italic;
-  color: #332C21;
+  color: #332c21;
   line-height: 120px;
   text-align: left;
   padding: 50px 0 50px 30px;
@@ -28,12 +28,12 @@
     font-weight: 400;
     letter-spacing: 0.2px;
     width: 320px;
-    border-bottom: solid 1px #6A6256;
+    border-bottom: solid 1px #6a6256;
     padding: 10px 0;
     margin-top: 50px;
     outline: none; }
   .title span {
-    color: #50C9CE;
+    color: #50c9ce;
     position: relative; }
     .title span::before {
       content: '';
@@ -44,7 +44,7 @@
       width: 124px;
       height: 124px;
       border-radius: 50%;
-      border: dashed 1px #332C21; }
+      border: dashed 1px #332c21; }
 
 .resources .section {
   float: left;
@@ -55,10 +55,10 @@
     width: 100%;
     font-family: "Open Sans", sans-serif;
     font-size: 28px;
-    color: #6A6256;
+    color: #6a6256;
     line-height: 36px;
     padding-bottom: 6px;
-    border-bottom: dashed 1px #D0CAC2;
+    border-bottom: dashed 1px #d0cac2;
     margin-bottom: 30px; }
 .resources .card {
   width: 270px;
@@ -74,14 +74,14 @@
   .resources .card:hover .author a::before {
     width: 100%; }
   .resources .card:hover .author a:hover {
-    color: #50C9CE; }
+    color: #50c9ce; }
   .resources .card .author {
     height: 25px; }
     .resources .card .author span, .resources .card .author a {
       font-family: "Playfair Display SC", serif;
       font-weight: 400;
       font-style: normal;
-      color: #332C21;
+      color: #332c21;
       letter-spacing: 1px;
       font-size: 12px;
       line-height: 25px;
@@ -95,7 +95,7 @@
         position: absolute;
         left: 0;
         top: 0;
-        border-top: solid 1px #D0CAC2;
+        border-top: solid 1px #d0cac2;
         transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .resources .card img {
     display: block;
@@ -110,19 +110,17 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
-    color: #332C21;
+    color: #332c21;
     margin-top: 5px;
     margin-bottom: 5px;
     transition: color 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
     .resources .card .link:hover {
-      color: #50C9CE; }
+      color: #50c9ce; }
   .resources .card p {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
-    color: #6A6256;
+    color: #6a6256;
     height: 54px;
     overflow: hidden; }
-
-/*# sourceMappingURL=resources.css.map */
