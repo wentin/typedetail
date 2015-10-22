@@ -982,5 +982,23 @@
     "field1": "",
     "field2": "",
     "field3": ""
+  },
+  {
+    "title": "100 Days of Dafont",
+    "url": "http://www.carsonbeyl.com/100-days-1/",
+    "owner": {
+      "name": "Carson Beyl",
+      "link": "http://www.carsonbeyl.com/"
+    },
+    "screenshot": "dafont.png",
+    "offsiteScreenshot": "",
+    "description": "100 days of making things out of typefaces found on dafont.com",
+    "category": "Project",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
   }
 ]
