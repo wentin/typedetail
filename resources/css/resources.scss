@@ -71,6 +71,18 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
   		&:focus {
 		}
 	}	
+	::-webkit-input-placeholder {
+	   color: $light;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	   color: $light;  
+	}
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: $light;  
+	}
+	:-ms-input-placeholder {  
+	   color: $light;  
+	}
 	input.search:not(:valid) ~ .closeBtn {
 		display: none;
 	}

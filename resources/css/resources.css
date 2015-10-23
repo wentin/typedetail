@@ -49,6 +49,16 @@
     border-bottom: solid 1px #6a6256;
     padding: 5px 3px;
     outline: none; }
+  .searchWrapper ::-webkit-input-placeholder {
+    color: #d0cac2; }
+  .searchWrapper :-moz-placeholder {
+    /* Firefox 18- */
+    color: #d0cac2; }
+  .searchWrapper ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #d0cac2; }
+  .searchWrapper :-ms-input-placeholder {
+    color: #d0cac2; }
   .searchWrapper input.search:not(:valid) ~ .closeBtn {
     display: none; }
   .searchWrapper input.search:not(:valid) ~ .searchIcon {
