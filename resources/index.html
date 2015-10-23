@@ -43,7 +43,13 @@
 	<main>
 	  <div class="title">
 	    <span>R</span>esources
-	  <input type="text" ng-model="searchText" class="search" placeholder="Instant Search">
+	  </div>
+	  <div class="searchWrapper">
+		<form>
+	  		<input required type="text" ng-model="searchText" class="search" placeholder="Instant Search">
+	  		<div class="searchIcon"></div>
+		    <button class="closeBtn" type="reset" ng-click="searchText=''"></button>
+		</form>
 	  </div>
 	  <div class="resources">
 	    <div class="Websites section" ng-if="(resources | filter: { category: 'Website' } | filter: searchText).length > 0">

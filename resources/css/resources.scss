@@ -31,25 +31,11 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	font-weight: 900;
 	font-style: italic;
 	color: $dark;
-	line-height: 120px;
-	text-align: left;
-	padding: 50px 0 50px 30px;
+	line-height: 126px;
+	text-align: center;
+	padding: 50px 0 30px 30px;
 	box-sizing: border-box;
 	position: relative;
-	input.search {
-		float: right;
-		background: transparent;
-		border: 0;
-		font-family: $opensans;
-		font-size: 16px;
-		font-weight: 400;
-		letter-spacing: 0.2px;
-		width: 320px;
-		border-bottom: solid 1px $grey;
-		padding: 5px 0;
-		margin-top: 60px;
-  		outline: none;
-	}
 	span {
 		color: $tint;
 		position: relative;
@@ -63,6 +49,80 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 			height: 124px;
 			border-radius: 50%;
 			border: dashed 1px $dark;
+		}
+	}
+}
+.searchWrapper {
+	width: 360px;
+	margin: 0 auto 30px auto;
+	display: block;
+	position: relative;
+	input.search {
+		background: transparent;
+		border: 0;
+		font-family: $opensans;
+		font-size: 16px;
+		font-weight: 400;
+		letter-spacing: 0.2px;
+		width: 100%;
+		border-bottom: solid 1px $grey;
+		padding: 5px 3px;
+  		outline: none;
+  		&:focus {
+		}
+	}	
+	input.search:not(:valid) ~ .closeBtn {
+		display: none;
+	}
+	input.search:not(:valid) ~ .searchIcon {
+		display: block;
+	}
+	.searchIcon {
+		display: none;
+		width: 12px; 
+		height: 12px;
+		border: solid 1px $grey;
+		border-radius: 100%;
+		position: absolute;
+		top: 8px;
+		right: 4px;
+		transform: rotate(-45deg);
+		&:before {
+			content: '';
+			position: absolute;
+		    top: 12px;
+		    left: 5px;
+		    height: 6px;
+		    width: 1px;
+			background-color: $grey;
+		}
+	}
+	.closeBtn {
+		border: none;
+		background-color: transparent;
+		display: inline-block;
+		cursor: pointer;
+		outline: 0;
+		padding: 0;
+		margin: 0;
+		position: absolute;
+		top: 6px;
+		right: 0;
+		width: 21px;
+		height: 21px;	
+		&:before,
+		&:after {
+			content: "";
+			display: block;
+			width: 21px; 
+			height: 1px;
+			background-color: $grey;
+			position: absolute;
+			top: 10px;
+			transform: rotate(45deg);
+		}
+		&:before {
+			transform: rotate(-45deg);
 		}
 	}
 }
