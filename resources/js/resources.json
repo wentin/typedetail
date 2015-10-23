@@ -936,7 +936,7 @@
     "screenshot": "webfonter.png",
     "offsiteScreenshot": "",
     "description": "Which fonts should you use for your next web project? With <b>WebFonter you can test-drive thousands of web fonts from FontShop, in your desktop browser and in your own design, for free. Simple as that.",
-    "category": "Website",
+    "category": "Tool",
     "note": "",
     "addedDate": "2015-10-20",
     "addedBy": "Wenting Zhang",
@@ -1413,6 +1413,24 @@
     "screenshot": "book_designingwithtype.jpg",
     "offsiteScreenshot": "",
     "description": "The classic Designing with Type has been completely redesigned, with an updated format and full color throughout. New information and new images make this perennial best-seller an even more valuable tool for anyone interested in learning about typography. The fifth edition has been integrated with a convenient website, www.designingwithtype.com, where students and teachers can examine hundreds of design solutions and explore a world of typographic information. First published more than thirty-five years ago, Designing with Type has sold more than 250,000 copies—and this fully updated edition, with its new online resource, will educate and inspire a new generation of designers.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "On Web Typography",
+    "url": "http://abookapart.com/products/on-web-typography",
+    "owner": {
+      "name": "Jason Santa Maria",
+      "link": "http://jasonsantamaria.com/"
+    },
+    "screenshot": "book_webtypography.jpg",
+    "offsiteScreenshot": "",
+    "description": "Jason Santa Maria wants you to see type beyond code or flourishes. You’ll discover how typography shapes the way we read and how you can adapt the craft’s practices for the screen. So go ahead. Choose, combine, and set typefaces with ease—and invite readers in.",
     "category": "Book",
     "note": "",
     "addedDate": "2015-10-22",
