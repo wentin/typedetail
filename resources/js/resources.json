@@ -81,6 +81,24 @@
     "field3": ""
   },
   {
+    "title": "Promotion Presentation",
+    "url": "https://vimeo.com/52861172",
+    "owner": {
+      "name": "Karen Cheng",
+      "link": "http://art.washington.edu/design/design-faculty/karen-cheng/"
+    },
+    "screenshot": "promotion.png",
+    "offsiteScreenshot": "",
+    "description": "Karen Cheng, Associate Professor of Visual Communication Design, and chair of the Design Division, presents on her work from 2003 to present, as part of the promotion process to Full Professor.",
+    "category": "Talk",
+    "note": "",
+    "addedDate": "2015-10-19",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
     "title": "Type To Design",
     "url": "http://typetodesign.com/",
     "owner": "",
@@ -246,7 +264,7 @@
     "screenshot": "practicaltypography.png",
     "offsiteScreenshot": "",
     "description": "A book about typography, published only on the Internet.",
-    "category": "Online Book",
+    "category": "Online",
     "note": "",
     "addedDate": "2015-10-19",
     "addedBy": "Wenting Zhang",
@@ -261,7 +279,7 @@
     "screenshot": "prowebtype.png",
     "offsiteScreenshot": "",
     "description": "Donny Truong is a web designer with a passion for typography. He works as a web developer at the George Mason University School of Law and teaches web design and usability at the George Mason University School of Art. He still blogs vigorously atVisualgui.com.",
-    "category": "Online Book",
+    "category": "Online",
     "note": "",
     "addedDate": "2015-10-19",
     "addedBy": "Wenting Zhang",
@@ -867,7 +885,7 @@
     "screenshot": "webtypography.png",
     "offsiteScreenshot": "",
     "description": "Robert Bringhurst’s book The Elements of Typographic Style is on many a designer’s bookshelf and is considered to be a classic in the field. Indeed the renowned typographer Hermann Zapf proclaims the book to be a must for everybody in the graphic arts, and especially for our new friends entering the field. In order to allay some of the myths surrounding typography on the web, I have structured this website to step through Bringhurst’s working principles, explaining how to accomplish each using techniques available in HTMLand CSS. The future is considered with coverage of CSS3, and practicality is ever present with workarounds, alternatives and compromises for less able browsers.",
-    "category": "Online Book",
+    "category": "Online",
     "note": "",
     "addedDate": "2015-10-20",
     "addedBy": "Wenting Zhang",
@@ -1165,6 +1183,219 @@
     "offsiteScreenshot": "",
     "description": "A classification system can be helpful in identifying, choosing and combining typefaces. While four categories are clearly inadequate for design professionals, dozens become self-defeating. We have put together a somewhat hybrid system of 15 styles, based on the historical and descriptive nomenclature first published in 1954 as the Vox system – and still widely accepted as a standard today.",
     "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "The Elements of Typographic Style",
+    "url": "http://www.amazon.com/Elements-Typographic-Style-Robert-Bringhurst/dp/0881791326",
+    "owner": {
+      "name": "Robert Bringhurst",
+      "link": "https://en.wikipedia.org/wiki/Robert_Bringhurst"
+    },
+    "screenshot": "book_element.jpg",
+    "offsiteScreenshot": "",
+    "description": "Renowned typographer and poet Robert Bringhurst brings clarity to the art of typography with this masterful style guide. Combining the practical, theoretical, and historical, this edition is completely updated, with a thorough revision and updating of the longest chapter, \"Prowling the Specimen Books,\" and many other small but important updates based on things that are continually changing in the field.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "The Anatomy of Type: A Graphic Guide to 100 Typefaces",
+    "url": "http://www.amazon.com/Anatomy-Type-Graphic-Guide-Typefaces/dp/0062203126/ref=sr_1_1?s=books&ie=UTF8&qid=1445566405&sr=1-1&keywords=the+anatomy+of+type",
+    "owner": {
+      "name": "Stephen Coles",
+      "link": "http://stephencoles.org/"
+    },
+    "screenshot": "book_anatomy.jpg",
+    "offsiteScreenshot": "",
+    "description": "The Anatomy of Type explores one hundred traditional and modern typefaces in loving detail, with a full spread devoted to each entry. The full character set from each typeface is shown, and the best letters for identification are enlarged and annotated, revealing key features, anatomical details, and the finer, often-overlooked elements of type design. Containing in-depth information on everything from the designer and foundry, the year of release, and the different weights and styles available, The Anatomy of Type is more than a reference guide to the intricacies of typeface design. It is a visual send-up of some of the world's most beloved typefaces, beautifully displayed in vibrant color.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Just My Type: A Book About Fonts ",
+    "url": "http://www.amazon.com/Just-My-Type-About-Fonts/dp/1592407463",
+    "owner": {
+      "name": "Simon Garfield",
+      "link": "http://www.simongarfield.com/home.asp"
+    },
+    "screenshot": "book_justmytype.jpg",
+    "offsiteScreenshot": "",
+    "description": "A delightfully inquisitive tour that explores the rich history and the subtle powers of fonts.\nFonts surround us every day, on street signs and buildings, on movie posters and books, and on just about every product that we buy. But where do fonts come from and why do we need so many? Who is behind the businesslike subtlety of Times New Roman, the cool detachment of Arial, or the maddening lightness of Comic Sans (and the movement to ban it)? Simon Garfield embarks on a mission to answer these questions and more, and reveal what may be the very best and worst fonts in the world.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Thinking with Type, 2nd revised and expanded edition: A Critical Guide for Designers, Writers, Editors, & Students",
+    "url": "http://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/ref=dp_ob_title_bk",
+    "owner": {
+      "name": "Ellen Lupton",
+      "link": "http://elupton.com/"
+    },
+    "screenshot": "book_thinkingwithtype.jpg",
+    "offsiteScreenshot": "",
+    "description": "Thinking with Type is the definitive guide to using typography in visual communication, from the printed page to the computer screen. This revised edition includes forty-eight pages of new content, including the latest information on style sheets for print and the web, the use of ornaments and captions, lining and non-lining numerals, the use of small caps and enlarged capitals, as well as information on captions, font licensing, mixing typefaces, and hand lettering. ",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Type on Screen: A Critical Guide for Designers, Writers, Developers, and Students (Design Briefs)",
+    "url": "http://www.amazon.com/Type-Screen-Critical-Designers-Developers/dp/161689170X/ref=sr_1_1?ie=UTF8&qid=1402610424&sr=8-1&keywords=type+on+screen",
+    "owner": {
+      "name": "Ellen Lupton",
+      "link": "http://elupton.com/"
+    },
+    "screenshot": "book_typeonscreen.jpg",
+    "offsiteScreenshot": "",
+    "description": "The long awaited follow-up to our all-time bestseller Thinking with Type is here. Type on Screen is the definitive guide to using classic typographic concepts of form and structure to make dynamic compositions for screen-based applications. Covering a broad range of technologies—from electronic publications and websites to videos and mobile devices—this hands-on primer presents the latest information available to help designers make critical creative decisions, including how to choose typefaces for the screen, how to style beautiful, functional text and navigation, how to apply principles of animation to text, and how to generate new forms and experiences with code-based operations. Type on Screen is an essential design tool for anyone seeking clear and focused guidance about typography for the digital age.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Inside Paragraphs Typographic Fundamentals",
+    "url": "http://www.amazon.com/Inside-Paragraphs-Typographic-Fundamentals-Highsmith/dp/0965472205",
+    "owner": {
+      "name": "Cyrus Highsmith",
+      "link": "http://cyrushighsmith.tumblr.com/"
+    },
+    "screenshot": "book_insideparagraphs.jpg",
+    "offsiteScreenshot": "",
+    "description": "Inside Paragraphs is about what goes on inside a paragraph of printed text. The goal is to help students train their eyes to see text as typographers do. It begins with general explanations of how type works and how we read. Then the author steps through the different kinds of space within a paragraph. Finally, it puts everything together with a discussion about paragraph settings. Typography began with paragraphs of printed text. Since then, it has evolved in all sorts of directions, sometimes leaving ink and paper behind entirely. But the printed paragraph is still a good starting point. Understanding what goes on inside provides a solid foundation on which to build. And that's what this book is meant to be - a foundation. Inside Paragraphs is the book Highsmith always wanted when he was a student in his first typography course.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Shady Characters: The Secret Life of Punctuation, Symbols, and Other Typographical Marks",
+    "url": "http://www.amazon.com/Shady-Characters-Punctuation-Symbols-Typographical/dp/0393064425",
+    "owner": {
+      "name": "Keith Houston",
+      "link": "http://www.shadycharacters.co.uk/"
+    },
+    "screenshot": "book_shadycharacters.jpg",
+    "offsiteScreenshot": "",
+    "description": "A charming and indispensable tour of two thousand years of the written word, Shady Characters weaves a fascinating trail across the parallel histories of language and typography.\nWhether investigating the asterisk (*) and dagger (†)—which alternately illuminated and skewered heretical verses of the early Bible—or the at sign (@), which languished in obscurity for centuries until rescued by the Internet, Keith Houston draws on myriad sources to chart the life and times of these enigmatic squiggles, both exotic (¶) and everyday (&).",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "An Essay on Typography",
+    "url": "http://www.amazon.com/Essay-Typography-Eric-Gill/dp/0879237627",
+    "owner": {
+      "name": "Eric Gill",
+      "link": "https://en.wikipedia.org/wiki/Eric_Gill"
+    },
+    "screenshot": "book_essayontypography.jpg",
+    "offsiteScreenshot": "",
+    "description": "Born in 1882, Gill was an artist, letter carver, gadfly, polemicist, and social reformer. In 1925, he had started drawing alphabets and printing books, and in 1931, this plainspoken little book was a fustian and forceful argument for common sense in design, composed for anyone remotely interested in the subtle and evolving challenge of the typographic arts. Set rag right, with tight word spacing, it is a model of composition. The text, like most of Gill's, is exasperating, exorbitant, and exciting. But Gill was, above all, a craftsman, whose work always reflected his philosophy and whose hand always followed his moral convictions.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Helvetica and the New York City Subway System: The True (Maybe) Story",
+    "url": "http://www.amazon.com/Helvetica-York-City-Subway-System/dp/026201548X",
+    "owner": {
+      "name": "Paul Shaw",
+      "link": "http://www.paulshawletterdesign.com/"
+    },
+    "screenshot": "book_helveticanyc.jpg",
+    "offsiteScreenshot": "",
+    "description": "For years, the signs in the New York City subway system were a bewildering hodge-podge of lettering styles, sizes, shapes, materials, colors, and messages. The original mosaics (dating from as early as 1904), displaying a variety of serif and sans serif letters and decorative elements, were supplemented by signs in terracotta and cut stone. Over the years, enamel signs identifying stations and warning riders not to spit, smoke, or cross the tracks were added to the mix. Efforts to untangle this visual mess began in the mid-1960s, when the city transit authority hired the design firm Unimark International to create a clear and consistent sign system. We can see the results today in the white-on-black signs throughout the subway system, displaying station names, directions, and instructions in crisp Helvetica. This book tells the story of how typographic order triumphed over chaos.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Designing Type",
+    "url": "http://www.amazon.com/Designing-Type-Karen-Cheng/dp/0300111509",
+    "owner": {
+      "name": "Karen Cheng",
+      "link": "http://art.washington.edu/design/design-faculty/karen-cheng/"
+    },
+    "screenshot": "book_designingtype.jpg",
+    "offsiteScreenshot": "",
+    "description": "One of the most essential tools of graphic design, typography influences the appearance of visual print materials perhaps more than any other component. This essential book explains the processes behind creating and designing type. Author Karen Cheng discusses issues of structure, optical compensation, and legibility, with special emphasis given to the often overlooked relationships between letters and shapes in font design.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "In Progress: See Inside a Lettering Artist's Sketchbook and Process, from Pencil to Vector",
+    "url": "http://www.amazon.com/In-Progress-Lettering-Artists-Sketchbook/dp/145213622X",
+    "owner": {
+      "name": "Jessica Hische",
+      "link": "http://jessicahische.is/"
+    },
+    "screenshot": "book_inprogress.jpg",
+    "offsiteScreenshot": "",
+    "description": "This show-all romp through design-world darling Jessica Hische's sketchbook reveals the creative and technical process behind making award-winning hand lettering. See everything, from Hische's rough sketches to her polished finals for major clients such as Wes Anderson, NPR, and Starbucks. The result is a well of inspiration and brass tacks information for designers who want to sketch distinctive letterforms and hone their skills. With more than 250 images and metallic silver ink printed throughout to represent her penciled sketches, this highly visual book is an essential—and entirely enjoyable—resource for those who practice or simply appreciate the art of hand lettering.",
+    "category": "Book",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Designing with Type, 5th Edition: The Essential Guide to Typography",
+    "url": "http://www.amazon.com/Designing-Type-5th-Essential-Typography/dp/B0083P10J4/",
+    "owner": "James Craig",
+    "screenshot": "book_designingwithtype.jpg",
+    "offsiteScreenshot": "",
+    "description": "The classic Designing with Type has been completely redesigned, with an updated format and full color throughout. New information and new images make this perennial best-seller an even more valuable tool for anyone interested in learning about typography. The fifth edition has been integrated with a convenient website, www.designingwithtype.com, where students and teachers can examine hundreds of design solutions and explore a world of typographic information. First published more than thirty-five years ago, Designing with Type has sold more than 250,000 copies—and this fully updated edition, with its new online resource, will educate and inspire a new generation of designers.",
+    "category": "Book",
     "note": "",
     "addedDate": "2015-10-22",
     "addedBy": "Wenting Zhang",

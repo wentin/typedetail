@@ -61,10 +61,14 @@
     border-bottom: dashed 1px #d0cac2;
     margin-bottom: 30px; }
 .resources .section.list .card {
-  width: 580px;
-  margin-bottom: 20px; }
+  width: 580px; }
   .resources .section.list .card:nth-child(2n+1) {
     margin-right: 0; }
+  .resources .section.list .card img {
+    width: auto;
+    height: 104px;
+    margin-right: 20px;
+    float: left; }
   .resources .section.list .card .link {
     margin-top: 0; }
 .resources .card {

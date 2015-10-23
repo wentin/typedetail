@@ -86,9 +86,14 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 	.section.list {
 		.card {
 			width: 580px;
-			margin-bottom: 20px;
 			&:nth-child(2n+1) {
 				margin-right: 0;
+			}
+			img {
+				width: auto;
+				height: 104px;
+				margin-right: 20px;
+				float: left;
 			}
 			.link {
 				margin-top: 0;

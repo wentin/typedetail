@@ -84,12 +84,12 @@
 	          <p>{{resource.description}}</p>
 	        </div>
 	    </div>
-	    <div class="OnlineBook section" ng-if="(resources | filter: { category: 'Online Book' } | filter: searchText).length > 0">
+	    <div class="Online section" ng-if="(resources | filter: { category: 'Online' } | filter: searchText).length > 0">
 	        <h1>
 	          Online Books
 	        </h1>
 	        <div class="card" 
-	          ng-repeat="resource in resources | filter: { category: 'Book' } | filter: searchText">
+	          ng-repeat="resource in resources | filter: { category: 'Online' } | filter: searchText">
 	          <div ng-if="!resource.owner" class="author">
 	          </div>
 	          <div ng-if="resource.owner && !resource.owner.name" class="author">
@@ -198,6 +198,25 @@
 	          Articles
 	        </h1>
 		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Article' } | filter: searchText">
+		        <div ng-if="!resource.owner" class="author">
+		        	<span></span>
+		        </div>
+		        <div ng-if="resource.owner && !resource.owner.name" class="author">
+		            <span>{{resource.owner}}</span>
+		        </div>
+		        <div ng-if="resource.owner && resource.owner.name" class="author">
+		            <a ng-href="{{resource.owner.link}}" target="_blank">{{resource.owner.name}}</a>
+		        </div>
+		        <a ng-href="{{resource.url}}" class="link" target="_blank">{{resource.title}}</a>
+		        <p>{{resource.description}}</p>
+		    </div>
+		</div>
+		<div class="Book section list" ng-if="(resources | filter: { category: 'Book' } | filter: searchText).length > 0">
+		    <h1>
+	          Books
+	        </h1>
+		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Book' } | filter: searchText">
+		        <img ng-src="images/{{resource.screenshot}}" alt="">
 		        <div ng-if="!resource.owner" class="author">
 		        	<span></span>
 		        </div>
