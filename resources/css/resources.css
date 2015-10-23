@@ -60,6 +60,13 @@
     padding-bottom: 6px;
     border-bottom: dashed 1px #d0cac2;
     margin-bottom: 30px; }
+.resources .section.list .card {
+  width: 580px;
+  margin-bottom: 20px; }
+  .resources .section.list .card:nth-child(2n+1) {
+    margin-right: 0; }
+  .resources .section.list .card .link {
+    margin-top: 0; }
 .resources .card {
   width: 270px;
   margin-bottom: 30px;

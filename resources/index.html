@@ -212,6 +212,24 @@
 		        <p>{{resource.description}}</p>
 		    </div>
 		</div>
+		<div class="Article section list" ng-if="(resources | filter: { category: 'Article' } | filter: searchText).length > 0">
+		    <h1>
+	          Articles
+	        </h1>
+		    <div class="card" ng-repeat="resource in resources | filter: { category: 'Article' } | filter: searchText">
+		        <div ng-if="!resource.owner" class="author">
+		        	<span></span>
+		        </div>
+		        <div ng-if="resource.owner && !resource.owner.name" class="author">
+		            <span>{{resource.owner}}</span>
+		        </div>
+		        <div ng-if="resource.owner && resource.owner.name" class="author">
+		            <a ng-href="{{resource.owner.link}}" target="_blank">{{resource.owner.name}}</a>
+		        </div>
+		        <a ng-href="{{resource.url}}" class="link" target="_blank">{{resource.title}}</a>
+		        <p>{{resource.description}}</p>
+		    </div>
+		</div>
 
 	  </div>
 	  <div id="disqus_thread"></div>

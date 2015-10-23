@@ -83,6 +83,18 @@ $easing: cubic-bezier(0.18, 0.57, 0.51, 1);
 		    margin-bottom: 30px;
 		}
 	}
+	.section.list {
+		.card {
+			width: 580px;
+			margin-bottom: 20px;
+			&:nth-child(2n+1) {
+				margin-right: 0;
+			}
+			.link {
+				margin-top: 0;
+			}
+		}
+	}
 	.card {
 		width: 270px;
 		margin-bottom: 30px;

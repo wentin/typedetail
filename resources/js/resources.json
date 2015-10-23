@@ -1000,5 +1000,176 @@
     "field1": "",
     "field2": "",
     "field3": ""
+  },
+  {
+    "title": "The Complete Beginner’s Guide to Chinese Fonts",
+    "url": "http://webdesign.tutsplus.com/articles/the-complete-beginners-guide-to-chinese-fonts--cms-23444",
+    "owner": {
+      "name": "Kendra Schaefer",
+      "link": "www.kendraschaefer.com"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "How many glyphs are there in a Chinese font set? Does Chinese have “serifs” and “sans-serifs”? What is the Helvetica of the Chinese font world? We’ll answer all these questions and more as we cannonball into the deep end of East Asian typography.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Proxima Nova, ca. 1981",
+    "url": "https://medium.com/@cameronmoll/proxima-nova-ca-1981-582bc974f90b#.7pbsl41a5",
+    "owner": {
+      "name": "Cameron Moll",
+      "link": "http://www.cameronmoll.com/"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "A brief visual history of Mark Simonson’s iconic typeface, a few of his thoughts, and my encounters with it along the way.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "How to pick the nicest font",
+    "url": "http://blog.webflow.com/how-to-pick-the-nicest-font-for-your-site",
+    "owner": {
+      "name": "Vlad Magdalin",
+      "link": "https://twitter.com/callmevlad"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "There are over 1,000 fonts on Typekit, and another 682 on Google Fonts.  Somehow, you have to pick the best for your site—and ensure that they pair well. Where do you even start?",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Crafting link underlines on Medium",
+    "url": "https://medium.com/designing-medium/crafting-link-underlines-on-medium-7c03a9274f9#.al00j15lu",
+    "owner": {
+      "name": "Marcin Wichary",
+      "link": "http://www.aresluna.org/"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "How hard could it be to draw a horizontal line on the screen? It seems wrangling a few pixels together to stand in a file would be something computers should be pretty good at anno domini twenty-fourteen.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Death to typewriters",
+    "url": "https://medium.com/designing-medium/death-to-typewriters-9b7712847639#.4q6afggnu",
+    "owner": {
+      "name": "Marcin Wichary",
+      "link": "http://www.aresluna.org/"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "You see, I blame typewriters for double-handedly setting typography back by centuries. Type before typewriters was a beautiful world filled with hard-earned nuance and richness, a universe of tradition and craftsmanship where letters and their arrangement could tell as many stories as the words and passages they portrayed.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "How to Systematically Pick Fonts",
+    "url": "https://medium.com/written-with-envy/how-to-systematically-pick-fonts-d5bae051e821#.68rjqtjk2",
+    "owner": {
+      "name": "Drew Powers",
+      "link": "https://twitter.com/an_ennui"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "Selecting the right typeface is a rather arcane practice. Without the “secret knowledge,” the decisions you make picking type have no clear right orwrong outcome save for impressing or disappointing those grouchy mystics people call typographers.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "The fight over the Doves – a legendary typeface gets a second life",
+    "url": "http://www.economist.com/news/christmas-specials/21591793-legendary-typeface-gets-second-life-fight-over-doves",
+    "owner": "",
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "ON DARK evenings in late 1916, a frail 76-year-old man could often be seen shuffling furtively between The Dove, a pub in west London, and the green and gold turrets of Hammersmith Bridge. Passers-by paid no attention, for there was nothing about Thomas Cobden-Sanderson’s nightly walks to suggest that he was undertaking a peculiar and criminal act of destruction.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Advanced web typography: A recap onOpenType features",
+    "url": "http://www.elliotjaystocks.com/blog/a-recap-on-opentype-features/",
+    "owner": {
+      "name": "Elliot Jay Stocks ",
+      "link": "http://www.elliotjaystocks.com/"
+    },
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "How time flies! It was now almost two years ago that I wrote my ’Tomorrow’s Web Type Today’ series of blog posts ( 1, 2, 3, 4) and did a talk based on their content at the Ampersand and TYPO Berlin conferences. (You can still watch the video from the latter event, if you’re interested.)",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Learn: Anatomy of a Typeface",
+    "url": "http://typedia.com/learn/only/anatomy-of-a-typeface/",
+    "owner": "",
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Type Classifications",
+    "url": "http://www.fonts.com/content/learning/fontology/level-1/type-anatomy/type-classifications",
+    "owner": "Allan Haley",
+    "screenshot": "",
+    "offsiteScreenshot": "",
+    "description": "A classification system can be helpful in identifying, choosing and combining typefaces. While four categories are clearly inadequate for design professionals, dozens become self-defeating. We have put together a somewhat hybrid system of 15 styles, based on the historical and descriptive nomenclature first published in 1954 as the Vox system – and still widely accepted as a standard today.",
+    "category": "Article",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
   }
 ]
