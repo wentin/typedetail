@@ -65,25 +65,6 @@
 	          <p>{{resource.description}}</p>
 	        </div>
 	    </div>
-	    <div class="Article section" ng-if="(resources | filter: { category: 'Article' } | filter: searchText).length > 0">
-	        <h1>
-	          Articles
-	        </h1>
-	        <div class="card" 
-	          ng-repeat="resource in resources | filter: { category: 'Article' } | filter: searchText">
-	          <div ng-if="!resource.owner" class="author">
-	          </div>
-	          <div ng-if="resource.owner && !resource.owner.name" class="author">
-	            <span>{{resource.owner}}</span>
-	          </div>
-	          <div ng-if="resource.owner && resource.owner.name" class="author">
-	            <a ng-href="{{resource.owner.link}}" target="_blank">{{resource.owner.name}}</a>
-	          </div>
-	          <img ng-src="images/{{resource.screenshot}}" alt="">
-	          <a ng-href="{{resource.url}}" class="link" target="_blank">{{resource.title}}</a>
-	          <p>{{resource.description}}</p>
-	        </div>
-	    </div>
 	    <div class="Blog section" ng-if="(resources | filter: { category: 'Blog' } | filter: searchText).length > 0">
 	        <h1>
 	          Blogs
