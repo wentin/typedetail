@@ -288,6 +288,21 @@
     "field3": ""
   },
   {
+    "title": "Fontology",
+    "url": "http://www.fonts.com/content/learning/fontology",
+    "owner": "Fonts.com",
+    "screenshot": "fontology.png",
+    "offsiteScreenshot": "",
+    "description": "Fonts.com has a passionate dedication to providing useful, informative and relevant information about the typographic arts.",
+    "category": "Online",
+    "note": "",
+    "addedDate": "2015-10-22",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
     "title": "Type Connection",
     "url": "http://www.typeconnection.com/",
     "owner": {
@@ -881,7 +896,10 @@
   {
     "title": "The Elements of Typographic Style Applied to the Web",
     "url": "http://webtypography.net/",
-    "owner": "",
+    "owner": {
+      "name": "Richard Rutter",
+      "link": "http://clagnut.com/"
+    },
     "screenshot": "webtypography.png",
     "offsiteScreenshot": "",
     "description": "Robert Bringhurst’s book The Elements of Typographic Style is on many a designer’s bookshelf and is considered to be a classic in the field. Indeed the renowned typographer Hermann Zapf proclaims the book to be a must for everybody in the graphic arts, and especially for our new friends entering the field. In order to allay some of the myths surrounding typography on the web, I have structured this website to step through Bringhurst’s working principles, explaining how to accomplish each using techniques available in HTMLand CSS. The future is considered with coverage of CSS3, and practicality is ever present with workarounds, alternatives and compromises for less able browsers.",
