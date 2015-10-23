@@ -1,19 +1,19 @@
 .logo span {
-  color: #EF431D; }
+  color: #ef431d; }
 
 .share a:hover::before {
-  color: #EF431D; }
+  color: #ef431d; }
 .share .vote i::after {
-  color: #EF431D; }
+  color: #ef431d; }
 
 .title {
   width: 570px;
-  border-top: dashed 1px #D0CAC2;
+  border-top: dashed 1px #d0cac2;
   font-family: "Playfair Display SC", serif;
   font-size: 80px;
   font-weight: 900;
   font-style: italic;
-  color: #332C21;
+  color: #332c21;
   line-height: 120px;
   text-align: right;
   padding: 114px 20px 0 0;
@@ -22,7 +22,7 @@
   box-sizing: border-box;
   position: relative; }
   .title span {
-    color: #EF431D;
+    color: #ef431d;
     position: relative; }
     .title span::before {
       content: '';
@@ -33,11 +33,11 @@
       width: 124px;
       height: 124px;
       border-radius: 50%;
-      border: dashed 1px #332C21; }
+      border: dashed 1px #332c21; }
 
 .index {
   width: 570px;
-  border-top: dashed 1px #D0CAC2;
+  border-top: dashed 1px #d0cac2;
   box-sizing: border-box;
   float: left;
   font-family: "Open Sans", sans-serif;
@@ -51,24 +51,24 @@
     top: 144px;
     width: 1px;
     bottom: 0;
-    border-right: dashed 1px #332C21; }
+    border-right: dashed 1px #d0cac2; }
   .index p:first-child {
     margin-top: 202px; }
   .index p {
     width: 450px;
     font-weight: 400;
     font-size: 14px;
-    color: #332C21;
+    color: #332c21;
     line-height: 20px;
     margin-top: 14px; }
   .index a {
-    color: #332C21;
+    color: #332c21;
     font-weight: 600;
     transition: all 0.4s cubic-bezier(0.18, 0.57, 0.51, 1); }
   .index a:hover {
-    color: #EF431D; }
+    color: #ef431d; }
   .index a:visited {
-    color: #6A6256; }
+    color: #6a6256; }
   .index .roman-num ul {
     width: 450px; }
     .index .roman-num ul li {
@@ -81,7 +81,7 @@
     margin-top: 14px;
     width: 225px;
     float: left;
-    color: #D0CAC2; }
+    color: #d0cac2; }
     .index ul li {
       font-weight: 400;
       font-size: 14px;
@@ -92,7 +92,5 @@
         display: inline-block;
         width: 18px;
         text-align: right;
-        color: #6A6256;
+        color: #6a6256;
         margin-right: 6px; }
-
-/*# sourceMappingURL=main.css.map */
