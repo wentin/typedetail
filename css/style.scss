@@ -1,4 +1,6 @@
 @import url(//cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css);
+
+
 $orange: #F1B908;
 $red: #EF431D;
 $blue: #50C9CE;
@@ -776,7 +778,7 @@ footer {
 		font-weight: 700;
 		font-size: 15px;
 		line-height: 30px;
-		color: #D0CAC2;
+		color: $light;
 		position: absolute;
 		right: 4px;
 		top: 0;
@@ -988,9 +990,10 @@ footer {
 		display: block;
 		font-family: $opensans;
 		font-size: 28px;
-		color: $light;
+		color: $grey;
 		line-height: 36px;
 		padding-bottom: 6px;
 		border-bottom: dashed 1px $light;
 	}
 }
+@import 'mobile';

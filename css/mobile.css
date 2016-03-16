@@ -1,0 +1,136 @@
+@media screen and (max-width: 568px) {
+  header {
+    width: calc(100% - 40px);
+    margin: 0 20px; }
+
+  .pagination {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #fdfcf6;
+    z-index: 999;
+    box-shadow: 0px -4px 6px 0px #fdfcf6; }
+    .pagination .next {
+      right: 30px; }
+    .pagination .prev {
+      left: 30px; }
+    .pagination .prev:hover span,
+    .pagination .next:hover span {
+      opacity: 0; }
+    .pagination .prev:hover:before,
+    .pagination .next:hover:before {
+      width: 57px; }
+
+  .share {
+    width: auto; }
+
+  footer {
+    width: calc(100% - 40px);
+    margin: 0 20px; }
+
+  /********** main.scss *************/
+  main {
+    width: calc(100% - 40px);
+    margin: 0 20px; }
+
+  .title {
+    font-size: 36px;
+    line-height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 0;
+    padding-left: 0; }
+    .title br:nth-child(3) {
+      display: none; }
+    .title span::before {
+      left: -18px;
+      top: -6px;
+      width: 60px;
+      height: 60px; }
+
+  .index {
+    width: 100%;
+    border-top: none; }
+    .index p:first-child {
+      margin-top: 20px; }
+    .index p {
+      width: 100%; }
+    .index .roman-num ul {
+      width: inherit; }
+
+  /********** resources.scss *************/
+  .searchWrapper {
+    width: 100%; }
+
+  .resources .section h1 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px; }
+  .resources .section.list .card {
+    width: 100%; }
+  .resources .card {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0; }
+    .resources .card .author, .resources .card p {
+      height: inherit; }
+    .resources .card img {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+      opacity: 1; }
+    .resources .card p {
+      min-height: 18px; }
+
+  /********** styles.scss for regualr pages *************/
+  .name {
+    width: 100%; }
+    .name .links a {
+      font-size: 14px;
+      line-height: 18px;
+      margin-left: 10px;
+      margin-bottom: 3px; }
+    .name h1 {
+      font-size: 40px;
+      line-height: 48px;
+      margin-top: 40px; }
+    .name p span {
+      display: block; }
+    .name p br {
+      display: none; }
+
+  .specimen {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden; }
+    .specimen:after {
+      bottom: -4px; }
+    .specimen p {
+      width: 570px; }
+
+  .annotation {
+    overflow-x: auto;
+    overflow-y: hidden; }
+
+  .styles, .legibility, .similar {
+    width: 100%;
+    margin-top: 20px; }
+    .styles::before, .legibility::before, .similar::before {
+      font-size: 16px;
+      line-height: 20px; }
+    .styles::after, .legibility::after, .similar::after {
+      background-color: #fdfcf6; }
+
+  /* 
+  .styles {
+    overflow: hidden;
+    * {
+      white-space: nowrap;
+    }
+  } */
+  .legibility *::after, .styles *::after {
+    background-color: #fdfcf6;
+    box-shadow: -4px 0px 6px 0px #fdfcf6; } }
+
+/*# sourceMappingURL=mobile.css.map */
