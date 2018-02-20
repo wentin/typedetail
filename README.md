@@ -3,7 +3,7 @@ Type Detail
 
 Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vote/talent/wenting-zhang/), inspired by the great discontent's [100 day project](https://thegreatdiscontent.com/100days) and Stephen Coles's great book [The Anatomy of Type](http://typeanatomy.com/). The rule and goal are to annotate a web typeface each day, pointing out the beautiful details of the typefaces that one often takes for granted.
 
-####Progress
+### Progress
 - [Georgia](http://typedetail.com/georgia.html)
 - [EB Garamond](http://typedetail.com/eb-garamond.html)
 - [Freight Display Pro](http://typedetail.com/freight-display-pro.html)
@@ -17,7 +17,7 @@ Type detail is an ongoing project by [Wenting Zhang](https://thenetawards.com/vo
 - [Bookerly](http://typedetail.com/bookerly.html)
 - [Sentinel](http://typedetail.com/sentinel.html)
 
-####Template
+### Template
 If you are interested in joining me on this type exploratory trip, you could grab my template and start making annotation of your favorite typefaces.
 
 1.  dowanload the [template zip file](https://github.com/wentin/typedetail/raw/gh-pages/template/template.zip), here is the [folder structure](https://github.com/wentin/typedetail/tree/gh-pages/template) and here is how the template looks in [browser](http://typedetail.com/template/template.html);
@@ -47,7 +47,7 @@ If you are interested in joining me on this type exploratory trip, you could gra
 * Mini Blog CMS hack: [Hack the Hackpad](https://github.com/wentin/Hack-the-Hackpad)
 
 
-####Mentions (thank you!)
+### Mentions (thank you!)
 * [The Next Web](http://thenextweb.com/apple/2015/05/25/font-of-all-knowledge/)
 * [Engadget](http://de.engadget.com/2015/05/25/apples-neue-font-san-francisco-unter-der-lupe/)
 * [designtaxi.com](http://designtaxi.com/news/376166/For-Type-Lovers-100-Day-Project-Zooms-In-On-The-Beautiful-Details-Of-Typefaces/)
@@ -55,7 +55,7 @@ If you are interested in joining me on this type exploratory trip, you could gra
 * [yahoo!](https://www.yahoo.com/tech/s/dissecting-ios-9-apple-font-201035637.html?nf=1)
 * [howdesign.com](http://www.howdesign.com/design-creativity/top-10-sites-for-designers/top-10-websites-resources-for-graphic-designers/), [Erik Spiekermann podcast](http://formfunk-podcast.de/interviews/erik-spiekermann) [bgr.com](http://bgr.com/2015/05/25/ios-9-os-x-10-11-san-francisco-font/), [sidebar.io](http://sidebar.io/2015/5/24), [graphics.com](http://www.graphics.com/resource/type-detail), [Form Fifty Five](http://formfiftyfive.com/2015/06/type-detail/#respond),[sanziro.com](http://sanziro.com/2015/05/a-peak-at-apples-san-francisco-font.html), [9to5mac.com](http://9to5mac.com/2015/05/25/apple-typeface-san-francisco/), [iphone ticker](http://www.iphone-ticker.de/san-francisco-alle-hintergruende-zur-neuen-ios-9-schriftart-82024/), [deep apple](http://deepapple.com/news/48147.html), [iphonehacks.com](http://www.iphonehacks.com/2015/05/designer-highlights-the-detail-in-apples-new-san-francisco-font.html), [HD blog](http://apple.hdblog.it/2015/05/25/Un-designer-mostra-perche-Apple-ha-scelto-di-usare-il-nuovo-font-San-Francisco/), [macitynet.it](http://www.macitynet.it/font-san-francisco-designer-spiega-perche-apple-lo-ha-scelto/), [giga.de](http://www.giga.de/apps/ios-9/news/san-francisco-was-an-apples-neuer-schrift-so-gut-ist/), [tudocelular.com](http://www.tudocelular.com/apple/noticias/n55035/Designer-explica-porque-Apple-adotou-a-fonte-San-Francisco.html), [ispazio.net](http://www.ispazio.net/523530/un-designer-spiega-perche-apple-pensa-di-adottare-il-carattere-san-francisco-anche-su-ios-e-os-x), [iculture.nl](http://www.iculture.nl/waarom-san-francisco-lettertype/), [ipadizate.es](http://www.ipadizate.es/2015/05/26/contamos-porque-fuente-san-francisco-apple/), [100shiki.com](http://www.100shiki.com/archives/2015/05/type_detail.html), [mactechnews.de](http://www.mactechnews.de/news/article/Apple-Watch-Warum-Apple-die-neue-Schrift-San-Francisco-verwendet-161456.html), [letemsvetemapplem.eu](http://www.letemsvetemapplem.eu/2015/05/25/designer-popsal-proc-apple-ios-9-os-x-10-11-prejde-nove-pismo-san-francisco/), [macerkopf.de](http://www.macerkopf.de/2015/05/26/ios9-darum-apple-schriftart-san/), [actualidadiphone.com](http://www.actualidadiphone.com/type-detail-nos-explica-por-que-apple-usa-san-francisco-como-tipo-de-letra/), [iphon.fr](http://www.iphon.fr/post/police-san-francisco-821357), [macintelligence.org](http://macintelligence.org/blog/2015/05/27/san-francisco-aiutaci-tu/), [smartworld.it](http://www.smartworld.it/informatica/ecco-perche-apple-ha-scelto-il-font-san-francisco.html), [pixel buddha](http://pixelbuddha.net/digest/pixelbuddha-digest-21), [soydemac.com](http://www.soydemac.com/un-disenador-explica-el-porque-apple-ha-elegido-el-tipo-de-fuente-san-francisco/), [iosxtreme.com](http://www.iosxtreme.com/2015/05/25/tipografia-apple-watch-ios-9/), [makemac.com](http://www.makemac.com/apple-watch-font-detail-review/), [itkeijyoshilog Blog](http://itkeijyoshilog.hatenablog.com/entry/2015/06/22/003329), [noticiasaominuto.com](http://www.noticiasaominuto.com/tech/395683/fonte-do-apple-watch-sera-aplicada-ao-ios-9-e-os-x), [want.nl](http://www.want.nl/waarom-apple-op-het-zelfontwikkelde-lettertype-san-francisco-overstapt/), [maximac.se](http://maximac.se/2015/05/en-narmare-titt-pa-apples-typsnitt-san-francisco/), [bicyclemind.it](http://bicyclemind.it/2015/05/27/dettagli-tipografici/), [macintelligence.org](http://macintelligence.org/blog/2015/05/27/san-francisco-aiutaci-tu/), [geekout.de](http://geekout.de/index_files/San_Francisco_neue_Systemschrift_in_IOS9_und_OSX_10-11.php), [apptestsss.de](http://apptestsss.de/2015/05/25/die-details-von-apples-san-francisco-font/), [designimag.com](http://designimag.com/latest-tools-of-the-week-23rd-may-29th-may/), [creive.me](http://creive.me/archives/5960/)
 
-####Contact
+### Contact
 * Follow [@DesignJokes](http://twitter.com/DesignJokes) on Twitter
 * Read on [Medium](https://medium.com/@wenting_zhang)
 * Email <zhangwenting111@gmail.com>
