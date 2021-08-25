@@ -22,7 +22,7 @@
 }
 
 .wrapper {
-  background: #fff;
+  background: #fdfcf6;
 }
 
 .w-dialogue {
@@ -70,7 +70,7 @@
 }
 
 .w-apostrophe {
-  font-family: Montserrat, sans-serif;
+  color: #ef431d;
 }
 
 .w-title {
