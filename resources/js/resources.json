@@ -195,6 +195,36 @@
     "field3": ""
   },
   {
+    "title": "Typogram Blog",
+    "url": "https://typogram.co/blog/",
+    "owner": "",
+    "screenshot": "typogram_blog.png",
+    "offsiteScreenshot": "",
+    "description": "Typography, Design commentary, product updates about Typogram — a brand design app",
+    "category": "Blog",
+    "note": "",
+    "addedDate": "2022-8-5",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
+    "title": "Font Discovery",
+    "url": "https://typogram.co/font-discovery/",
+    "owner": "",
+    "screenshot": "font_discovery.png",
+    "offsiteScreenshot": "",
+    "description": "Weekly Font and Design Inspirations From Typogram",
+    "category": "Blog",
+    "note": "",
+    "addedDate": "2022-8-5",
+    "addedBy": "Wenting Zhang",
+    "field1": "",
+    "field2": "",
+    "field3": ""
+  },
+  {
     "title": "Typographica",
     "url": "https://typographica.org/",
     "owner": "",
