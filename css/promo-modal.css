@@ -1,217 +1,195 @@
 .ty-wrapper {
-  min-height: 100vh;
+  perspective-origin: 50%;
   background-color: #fff;
-  -webkit-perspective-origin: 50% 50%;
-  perspective-origin: 50% 50%;
+  min-height: 100vh;
 }
 
 .ty-modal {
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0%;
 }
 
 .ty-dialogue {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 600px;
-  height: 480px;
   background-color: #fff;
-  -webkit-transform: none;
-  -ms-transform: none;
+  max-width: 640px;
+  height: 480px;
+  display: flex;
   transform: none;
 }
 
 .ty-graphic-wrapper {
-  position: relative;
-  overflow: hidden;
+  background-color: #121212;
+  border-bottom-right-radius: 120px;
+  border-bottom-left-radius: 120px;
+  flex: none;
   width: 240px;
   margin-bottom: 40px;
   margin-left: 40px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border-bottom-left-radius: 120px;
-  border-bottom-right-radius: 120px;
-  background-color: #121212;
+  position: relative;
+  overflow: hidden;
 }
 
 .ty-text-wrapper {
-  position: relative;
-  display: -ms-grid;
-  display: grid;
-  padding-top: 48px;
-  padding-right: 20px;
-  padding-left: 20px;
-  grid-auto-columns: 1fr;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  -ms-grid-rows: auto auto 1fr auto;
-  grid-template-rows: auto auto 1fr auto;
   text-align: center;
+  flex-flow: column;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
 }
 
 .ty-subtitle {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 14px;
-  line-height: 19px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 19px;
 }
 
 .ty-title {
-  font-family: 'Playfair Display', serif;
-  font-weight: 900;
-  font-style: italic;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 0;
   font-size: 36px;
   line-height: 1em;
-  letter-spacing: -0.02em;
 }
 
 .ty-paragraph {
-  margin-bottom: 0px;
+  margin-bottom: 0;
   font-family: futura-pt, sans-serif;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 17px;
   font-weight: 500;
+  line-height: 1.5em;
 }
 
 .ty-button {
+  color: #000;
+  cursor: pointer;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   width: 80px;
   height: 100px;
   padding-top: 30px;
-  border-top: 2px solid #000;
-  border-right: 2px solid #000;
-  border-left: 2px solid #000;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
-  color: #000;
   font-weight: 700;
   text-decoration: none;
-  cursor: pointer;
+  transition: all 0.2s;
 }
 
 .ty-button:hover {
-  background-color: #000;
   color: #fff;
+  background-color: #000;
 }
 
 .ty-label {
-  line-height: 14px;
   text-transform: uppercase;
+  line-height: 14px;
 }
 
 .ty-icon-arrow {
   width: 24px;
   height: 24px;
-  margin-right: auto;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .ty-overlay {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: 0%;
   z-index: -1;
-  background-color: rgba(0, 0, 0, 0.3);
   opacity: 1;
+  background-color: #0000004d;
+  position: absolute;
+  inset: 0%;
 }
 
 .ty-background {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
   z-index: -1;
   background-color: #000;
+  position: absolute;
+  inset: 0;
 }
 
 .ty-graphic-lottie {
-  position: absolute;
-  left: -365px;
-  top: 67px;
-  display: block;
   width: 740px;
   max-width: 740px;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
+  transition: transform 0.3s ease-in-out;
+  display: block;
+  position: absolute;
+  top: 67px;
+  left: -365px;
   transform: rotate(-45deg);
-  -webkit-transition: -webkit-transform 300ms ease-in-out;
-  transition: -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
 }
 
 .ty-graphic-lottie:hover {
   border-radius: 16px;
-  -webkit-transform: scale(1.1) rotate(-45deg);
-  -ms-transform: scale(1.1) rotate(-45deg);
   transform: scale(1.1) rotate(-45deg);
+}
+
+.ty-title-long {
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+  line-height: 1em;
+}
+
+.link {
+  color: currentColor;
+  background-image: linear-gradient(#0000, #0000 84%, #000 84% 88%, #0000 88%);
+  text-decoration: none;
+}
+
+.ty-graphic-simplytypography {
+  width: 240px;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.ty-graphic-simplytypography:hover {
+  border-radius: 16px;
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 767px) {
   .ty-modal {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
     align-items: center;
+    display: flex;
   }
 
   .ty-dialogue {
-    top: auto;
-    bottom: auto;
+    flex-direction: column;
     width: auto;
     height: auto;
-    margin-right: 20px;
     margin-left: 20px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
+    margin-right: 20px;
+    top: auto;
+    bottom: auto;
   }
 
   .ty-graphic-wrapper {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     width: auto;
     height: 200px;
-    margin-right: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-left: 20px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    margin-right: 20px;
   }
 
   .ty-text-wrapper {
@@ -228,50 +206,59 @@
   }
 
   .ty-graphic-lottie {
-    left: 0%;
-    top: 0%;
-    right: 0%;
-    bottom: 0%;
     width: 100%;
     margin: auto;
-    -webkit-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    transform: rotate(0deg);
+    inset: 0%;
+    transform: rotate(0);
   }
 
   .ty-graphic-lottie:hover {
-    -webkit-transform: scale(1.1) rotate(0deg);
-    -ms-transform: scale(1.1) rotate(0deg);
-    transform: scale(1.1) rotate(0deg);
+    transform: scale(1.1) rotate(0);
+  }
+
+  .ty-graphic-simplytypography {
+    width: 100%;
+    margin: auto;
+    inset: 0%;
+    transform: rotate(0);
+  }
+
+  .ty-graphic-simplytypography:hover {
+    transform: scale(1.1) rotate(0);
   }
 }
 
 @media screen and (max-width: 479px) {
   .ty-graphic-wrapper {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
     height: 80px;
-    margin-right: 0px;
-    margin-left: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .ty-paragraph {
     margin-bottom: 20px;
   }
 
-  .ty-graphic-lottie {
+  .ty-graphic-lottie,
+  .ty-graphic-simplytypography {
     width: 100%;
   }
 }
 
 #w-node-_4e9687b4-afb8-5d5e-fe18-4767447c1d37-82d38ce9 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
   align-self: center;
 }
 
 #w-node-_269a2952-2344-2e07-d369-a41dccb6bed2-82d38ce9 {
-  -ms-grid-column-align: center;
+  justify-self: center;
+}
+
+#w-node-_4e9687b4-afb8-5d5e-fe18-4767447c1d37-4a8615ad {
+  align-self: center;
+}
+
+#w-node-_269a2952-2344-2e07-d369-a41dccb6bed2-4a8615ad {
   justify-self: center;
 }
